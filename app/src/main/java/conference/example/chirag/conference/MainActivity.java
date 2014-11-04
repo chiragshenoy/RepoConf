@@ -2,12 +2,14 @@ package conference.example.chirag.conference;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 //Pushed from laptop
@@ -57,8 +59,18 @@ public class MainActivity extends Activity {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+                                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
+            Button b1 = (Button) rootView.findViewById(R.id.b1);
+            b1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent a = new Intent(getActivity(), ContactUs.class);
+                    startActivity(a);
+                }
+            });
+
             return rootView;
         }
     }
