@@ -1,0 +1,38 @@
+
+package conference.example.chirag.conference;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+/**
+ * Created by Chirag on 05-11-2014.
+ */
+public class AboutUs extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.about_us);
+        TextView content1 = (TextView) findViewById(R.id.content1);
+        content1.setText("In a world driven by innovations in engineering for promoting prosperity of mankind, " +
+                "augmenting human resource capital through quality engineering education is vital.\r\n The vision of the second " +
+                "International Conference on Transformations in Engineering Education is to bring engineering educators from across " +
+                "the world to share best practices for preparing engineering graduates who will be leaders in addressing global " +
+                "challenges.");
+//        content1.setText(Html.fromHtml(
+//                "<b>text3:</b>  Text with a " +
+//                        "<a href=\"http://www.google.com\">link</a> " +
+//                        "created in the Java source code using HTML."));
+
+        TextView content2 = (TextView) findViewById(R.id.content2);
+        content2.setText("The conference is Co-Organized by IUCEE (Indo-US Collaboration for Engineering Education http://iucee.com/) " +
+                "and BMS College of Engineering (BMSCE,www.bmsce.ac.in ) Bangalore from January 5 to 8, 2015.\r\n The conference program " +
+                "includes Paper Presentations, Keynote Addresses, Plenary Sessions and Panel Discussions. \r\nThe Pre-conference activities " +
+                "include a Student Forum (January 5 to 7) and Faculty Training/Workshops (January 7).\r\n \r\nThe Collaborators for the conference " +
+                "are:" +
+                "\r\n1.Institute of Electrical and Electronics Engineers (IEEE, www.ieee.org)\r\n\n2. International Federation of Engineering Education " +
+                "Societies (IFEES, www.ifees.net ), \r\n\n3.American Society for Engineering Education (ASEE, www.asee.org )\r\n\n4. Global Engineering Deans " +
+                "Council (GEDC, www.gedcouncil.org).\n\n\n ");
+    }
+
+}

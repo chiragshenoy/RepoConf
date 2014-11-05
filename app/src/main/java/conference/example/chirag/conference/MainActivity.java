@@ -16,17 +16,21 @@ import android.widget.Button;
 //Now pushed from desktop
 //Yaay this works!
 //Push from desktop with added xml
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
-                    .commit();
-        }
+
+//        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf");
+
+        Button b1 = (Button) findViewById(R.id.b1);
+//        b1.setTypeface(tf);
+//        b1.setText("About Us");
+        b1.setOnClickListener(this);
+
     }
 
 
@@ -49,6 +53,18 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onClick(View v) {
+
+        switch (v.getId()) {
+            case R.id.b1:
+                Intent a = new Intent(getApplicationContext(), AboutUs.class);
+                startActivity(a);
+                break;
+
+        }
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -61,16 +77,6 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-
-            Button b1 = (Button) rootView.findViewById(R.id.b1);
-            b1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent a = new Intent(getActivity(), ContactUs.class);
-                    startActivity(a);
-                }
-            });
-
             return rootView;
         }
     }

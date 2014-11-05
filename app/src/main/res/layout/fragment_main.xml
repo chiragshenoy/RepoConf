@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".MainActivity$PlaceholderFragment">
+
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -11,34 +11,42 @@
         android:background="@drawable/holo"></LinearLayout>
 
     <Button
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
         android:layout_centerVertical="true"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
-        android:background="@drawable/border"
+        android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="About"
+        android:textColor="#ffffff"
         android:textAlignment="center"
         android:id="@+id/b1" />
 
     <Button
-        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_below="@+id/b1"
+        android:textColor="#ffffff"
+
         android:layout_width="fill_parent"
         android:layout_height="30dp"
-        android:background="@drawable/border"
+        android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Workshops"
+
         android:textAlignment="center"
         android:id="@+id/b2" />
 
     <Button
-        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_below="@+id/b2"
         android:layout_width="fill_parent"
+        android:textColor="#ff1111"
         android:layout_height="30dp"
-        android:background="@drawable/border"
+        android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Conferences"
@@ -46,28 +54,31 @@
         android:id="@+id/b3" />
 
     <Button
-        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
         android:layout_below="@+id/b3"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
-        android:background="@drawable/border"
+        android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Contact Us"
+        android:text="Schedule"
         android:textAlignment="center"
         android:id="@+id/b4" />
 
     <Button
-        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
         android:layout_below="@+id/b4"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
-        android:background="@drawable/border"
+        android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Conferences"
+        android:text="Contact Us"
         android:textAlignment="center"
         android:id="@+id/b5" />
-
 
 </RelativeLayout>
