@@ -15,14 +15,15 @@
         android:layout_marginBottom="7dp"
         android:layout_centerVertical="true"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textColor="#ffffff"
         android:text="About"
         android:textAlignment="center"
-        android:id="@+id/b1" />
+        android:id="@+id/b1"
+        android:drawableLeft="@drawable/about" />
 
     <Button
         android:layout_marginTop="5dp"

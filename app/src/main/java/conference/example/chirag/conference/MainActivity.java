@@ -1,16 +1,15 @@
 package conference.example.chirag.conference;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 
 //Pushed from laptop
 //Now pushed from desktop
@@ -24,12 +23,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf");
-
+        //  Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf");
         Button b1 = (Button) findViewById(R.id.b1);
-//        b1.setTypeface(tf);
-//        b1.setText("About Us");
+        // b1.setTypeface(tf);
+        // b1.setText("About Us");
         b1.setOnClickListener(this);
+        Button b2 = (Button) findViewById(R.id.b2);
+        b2.setOnClickListener(this);
 
     }
 
@@ -61,6 +61,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 Intent a = new Intent(getApplicationContext(), AboutUs.class);
                 startActivity(a);
                 break;
+            case R.id.b2:
+                Intent b = new Intent(getApplicationContext(), Workshops.class);
+                startActivity(b);
+                break;
+
 
         }
     }

@@ -23,8 +23,16 @@
             <intent-filter>
                 <action android:name="android.intent.action.ABOUTUS" />
 
-                <category android:name="
-                    android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Workshops"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.WORKSHOPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
