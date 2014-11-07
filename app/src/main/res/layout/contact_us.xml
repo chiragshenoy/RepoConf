@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_us_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Contact Us " />
+
+    <Button
+        android:text="Call us at +91 7406618744 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/phone"
+        android:textSize="20dp"
+        android:background="#00000000"
+        android:id="@+id/callus"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/mail"
+        android:textSize="20dp"
+        android:text="Mail us at ictiee2015@bmsce.ac.in"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:id="@+id/mailus" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/reachus"
+        android:text="Bull Temple Road, Bengaluru, Karnataka 560019
+080"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/globe" />
+
+</LinearLayout>

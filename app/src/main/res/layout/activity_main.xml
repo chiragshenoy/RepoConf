@@ -81,6 +81,6 @@
         android:layout_marginRight="20dp"
         android:text="Contact Us"
         android:textAlignment="center"
-        android:id="@+id/b5" />
+        android:id="@+id/contactus" />
 
 </RelativeLayout>
