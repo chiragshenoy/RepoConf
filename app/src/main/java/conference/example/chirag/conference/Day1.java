@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class Day1 extends Fragment {
 
-    String[] l1 = {"asdasd", "asdiadsh", "asdasds", "aasdasd", "asdauhfoas"};
+    String[] l1 = {"Do Engineering", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "The Freedom Lab-in-a-Box ", "Yet To be Announced", "Technology a Generation ahead ", "IonCUDOSÂ© - Automation of Curriculum Design & Attainment for OBE "};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 
@@ -27,9 +27,8 @@ public class Day1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View d1 = inflater.inflate(R.layout.day1, container, false);
-        //  ((TextView) d1.findViewById(R.id.textView)).setText("Day 1 Workshops");
 
-        ArrayAdapter mArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item_conferences, R.id.tv_list_item, mList);
+        ArrayAdapter mArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item_workshop, R.id.tv_list_item, mList);
 
         ListView listView = (ListView) d1.findViewById(R.id.lv1);
         listView.setAdapter(mArrayAdapter);
@@ -38,9 +37,10 @@ public class Day1 extends Fragment {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent a = new Intent(getActivity(), Conf_DoEngineering.class);
+                Intent a = new Intent(getActivity(), Workshop1.class);
                 a.putExtra("pos", position);
                 startActivity(a);
+
             }
         });
         return d1;

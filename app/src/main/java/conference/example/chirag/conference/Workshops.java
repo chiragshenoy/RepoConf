@@ -52,8 +52,8 @@ public class Workshops extends FragmentActivity {
             }
         };
         //Add New Tab
-        actionBar.addTab(actionBar.newTab().setText("Day 1").setTabListener(tabListener));
-        actionBar.addTab(actionBar.newTab().setText("Day 2").setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText("Day 1 Workshops").setTabListener(tabListener));
+        actionBar.addTab(actionBar.newTab().setText("Day 2 Workshops").setTabListener(tabListener));
     }
 
 

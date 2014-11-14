@@ -2,28 +2,28 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-3389c42f056a1e6ac6833db27cb9c99e325ff7d0.jar"
-        jar="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        dex="/home/chirag/Workspace/RepoConf/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-c46897fde2b8d6e9107a4a476cb1336f6f766af5.jar"
+        jar="/home/chirag/Workspace/RepoConf/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
     <item
-        dex="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-ff1b3e7cc7e6b87c155d3ebe615db1845dcfb48f.jar"
-        jar="C:\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        dex="/home/chirag/Workspace/RepoConf/app/build/intermediates/pre-dexed/debug/classes-a3c360fedb70343fe6873aa5c0b06d5dac555e34.jar"
+        jar="/home/chirag/Workspace/RepoConf/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
     <item
-        dex="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\pre-dexed\debug\classes-3b03962f2d2f182cef879854a8c0a3a918d76d2e.jar"
-        jar="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        dex="/home/chirag/Workspace/RepoConf/app/build/intermediates/pre-dexed/debug/classes-ff23249e30fc90396cd476534fd677c081918ac2.jar"
+        jar="/home/chirag/Workspace/RepoConf/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
     <item
-        dex="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\pre-dexed\debug\classes-37dd9ca4b28865421569199406a9dda09ec2078d.jar"
-        jar="C:\Users\Chirag\AndroidStudioProjects\Conference\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        dex="/home/chirag/Workspace/RepoConf/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-88f029b412c2bfd85605a370b74209dbe37cca6f.jar"
+        jar="/home/chirag/Desktop/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
 
 </pre-dex-items>

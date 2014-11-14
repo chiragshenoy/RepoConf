@@ -32,6 +32,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         b2.setOnClickListener(this);
         Button contactus = (Button) findViewById(R.id.contactus);
         contactus.setOnClickListener(this);
+        Button schedule = (Button) findViewById(R.id.b4);
+        schedule.setOnClickListener(this);
 
     }
 
@@ -66,6 +68,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.b2:
                 Intent b = new Intent(getApplicationContext(), Workshops.class);
                 startActivity(b);
+                break;
+            case R.id.b4:
+                Intent d = new Intent(getApplicationContext(), Schedule.class);
+                startActivity(d);
                 break;
             case R.id.contactus:
                 Intent c = new Intent(getApplicationContext(), ContactUs.class);

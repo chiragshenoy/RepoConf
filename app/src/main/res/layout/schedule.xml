@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/holo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Day 1 Schedule"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#ff0000" />
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#a0596b">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FEC343"
+                        android:gravity="center_horizontal"
+                        android:text="Event" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal"
+                        android:textColor="#fec343"
+                        android:text="Venue" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#fec343"
+                        android:gravity="center_horizontal"
+                        android:text="Time" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="ICTIEE 2015 Conference Registration"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="Sports Complex"
+                        android:textColor="#55134E"
+
+                        android:layout_margin="1px"
+                        android:gravity="center_horizontal"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="9am onwards"
+                        android:textColor="#55134E"
+
+                        android:layout_margin="1px"
+                        android:background="#72cbdb"
+                        android:gravity="center_horizontal" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="Pre-Conference Workshops"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="9am - 4pm"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="Indian Student Forum ISF 2014 Day 3"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="9am -4pm"
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:gravity="center_horizontal"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="10sp"
+                        android:text="Focus on Exhibits (High Tea)"
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="3pm - 5pm"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:gravity="center_horizontal"
+                        android:text="Conference Inaugural Ceremony"
+                        android:layout_margin="1px"
+                        android:textColor="#55134E"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:textColor="#55134E"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="5pm - pm"
+                        android:layout_margin="1px"
+                        android:textColor="#55134E"
+                        android:gravity="center_horizontal"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="Key Note Addresses"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="6pm - 7pm"
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="Student Forum Valedictory"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:textColor="#55134E"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text=""
+                        android:textColor="#55134E"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:gravity="center_horizontal"
+                        android:text="7pm - 7.30pm"
+                        android:textColor="#55134E"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="Cultural Program"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text=""
+                        android:layout_margin="1px"
+                        android:gravity="center_horizontal"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textColor="#55134E"
+                        android:textSize="10sp"
+                        android:text="7.30pm - 8.15pm"
+                        android:layout_margin="1px"
+                        android:gravity="center_horizontal"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#27160e">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text="Conference Welcoming Dinner"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:textColor="#55134E"
+                        android:text=""
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="10sp"
+                        android:text="8.15pm - 9.30pm"
+                        android:textColor="#55134E"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="1px"
+                        android:background="#72cbdb" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

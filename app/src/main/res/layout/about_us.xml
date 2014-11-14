@@ -33,7 +33,7 @@
                 android:id="@+id/content1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/otherborder"
+                android:background="@drawable/transparentborder"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:linksClickable="true" />

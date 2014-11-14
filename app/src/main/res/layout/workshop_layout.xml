@@ -64,5 +64,17 @@
             android:layout_marginTop="40dp"
             android:id="@+id/description" />
 
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/htmllink" />
+
+
     </LinearLayout>
 </ScrollView>
