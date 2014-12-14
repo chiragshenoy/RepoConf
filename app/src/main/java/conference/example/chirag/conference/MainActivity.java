@@ -3,12 +3,7 @@ package conference.example.chirag.conference;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 
 //Pushed from laptop
@@ -34,28 +29,30 @@ public class MainActivity extends Activity implements View.OnClickListener {
         contactus.setOnClickListener(this);
         Button schedule = (Button) findViewById(R.id.b4);
         schedule.setOnClickListener(this);
+        Button studentScheule =(Button) findViewById(R.id.b3);
+        studentScheule.setOnClickListener(this);
 
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.main, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onClick(View v) {
@@ -68,6 +65,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.b2:
                 Intent b = new Intent(getApplicationContext(), Workshops.class);
                 startActivity(b);
+                break;
+            case R.id.b3:
+                Intent f = new Intent(getApplicationContext(), Temp.class);
+                startActivity(f);
                 break;
             case R.id.b4:
                 Intent d = new Intent(getApplicationContext(), Schedule.class);
@@ -84,16 +85,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
-        }
-    }
+//    public static class PlaceholderFragment extends Fragment {
+//
+//        public PlaceholderFragment() {
+//        }
+//
+//        @Override
+//        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                                 Bundle savedInstanceState) {
+//            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+//            return rootView;
+//        }
+//    }
 }

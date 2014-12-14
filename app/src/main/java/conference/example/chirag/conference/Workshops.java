@@ -6,6 +6,8 @@ package conference.example.chirag.conference;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
@@ -21,6 +23,7 @@ public class Workshops extends FragmentActivity {
         setContentView(R.layout.workshops);
         TabAdapter = new TabPagerAdapter(getSupportFragmentManager());
         Tab = (ViewPager) findViewById(R.id.pager);
+        getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#7986CB")));
         Tab.setOnPageChangeListener(
                 new ViewPager.SimpleOnPageChangeListener() {
                     @Override

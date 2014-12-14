@@ -45,12 +45,12 @@
         android:layout_marginBottom="5dp"
         android:layout_below="@+id/b2"
         android:layout_width="fill_parent"
-        android:textColor="#ff1111"
+        android:textColor="#ffffff"
         android:layout_height="30dp"
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Conferences"
+        android:text="Student Forum Schedule"
         android:textAlignment="center"
         android:id="@+id/b3" />
 
