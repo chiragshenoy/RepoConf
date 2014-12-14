@@ -2,13 +2,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/holo"
     tools:context=".MainActivity$PlaceholderFragment">
 
+    <ImageView
+        android:layout_width="150dp"
+        android:id="@+id/bmsce"
+        android:layout_marginTop="40dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bmsce"/>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/holo"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bmsce"
+        android:layout_marginTop="50dp"
+        android:text="ICTIEE 2015"
+        android:fontFamily="sans-serif"
+        android:id="@+id/ictiee"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ictiee"
+        android:layout_toRightOf="@+id/bmsce"
+        android:textSize="20dp"
+        android:text="BMSCE,Bangalore "/>
 
     <Button
         android:layout_marginTop="7dp"
@@ -81,5 +101,19 @@
         android:text="Contact Us"
         android:textAlignment="center"
         android:id="@+id/contactus" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/contactus"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/transparentborder"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Current Events"
+        android:textAlignment="center"
+        android:id="@+id/current_event" />
 
 </RelativeLayout>

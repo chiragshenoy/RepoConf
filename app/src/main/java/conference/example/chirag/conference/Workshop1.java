@@ -56,7 +56,7 @@ public class Workshop1 extends Activity {
 
 
         //Position 7
-        if (position == 7) {
+        if (position == 4) {
             title.setText("The Freedom Lab-in-a-Box");
             date.setText("5th January 2015\nARM University Program\nWorkshop Code : 05ARM\n");
             time.setText("Time : 9am - 4pm");
@@ -73,7 +73,7 @@ public class Workshop1 extends Activity {
 
 
         //Position 9
-        if (position == 9) {
+        if (position == 6) {
             title.setText("Technology a Generation ahead ");
             date.setText("5th January 2015\nCoreel\nWorkshop Code : 05CRL\n");
             time.setText("Time : 9am - 4pm");
@@ -88,8 +88,8 @@ public class Workshop1 extends Activity {
         }
 
         //Position 10
-        if (position == 10) {
-            title.setText("Technology a Generation ahead ");
+        if (position == 9) {
+            title.setText("Automation of Curriculum Design & Attainment for OBE  ");
             date.setText("5th January 2015\nIonIdea Inc\nWorkshop Code : 05CDA\n");
             time.setText("Time : 9am - 4pm");
             venue.setText("Venue : Lib Audi");
