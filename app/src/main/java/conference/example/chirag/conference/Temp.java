@@ -67,7 +67,6 @@ public class Temp extends ActionBarActivity {
 //            arr = (ArrayList<String>) c.getStringArrayList("array_list");
 //        }
 
-
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabs.setBackground(new ColorDrawable(Color.parseColor(color_list[0])));
         tabs.setTextColor(0xAAFFFFFF);
