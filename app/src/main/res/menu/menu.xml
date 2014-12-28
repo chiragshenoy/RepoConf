@@ -6,24 +6,24 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/home"
-        android:title="About"
-        app:showAsAction="ifRoom"
+        android:title="Home"
+        app:showAsAction="always"
         android:orderInCategory="1"
         android:menuCategory="secondary" />
 
     <item
         android:id="@+id/phone"
         android:icon="@drawable/menu_phone"
-        android:title="About"
-        app:showAsAction="ifRoom"
+        android:title="Contact Us"
+        app:showAsAction="always"
         android:orderInCategory="2"
         android:menuCategory="secondary" />
 
     <item
         android:id="@+id/now"
         android:icon="@drawable/now"
-        android:title="Now"
-        app:showAsAction="ifRoom"
+        android:title="Happening Now"
+        app:showAsAction="always"
         android:orderInCategory="3"
         android:menuCategory="secondary" />
 

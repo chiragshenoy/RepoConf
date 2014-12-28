@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,33 +17,39 @@ import java.util.List;
 /**
  * Created by Chirag on 06-11-2014.
  */
-public class Day1 extends Fragment {
+public class ListOfEvents2 extends Fragment {
 
-    String[] l1 = {"Do Engineering", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "The Freedom Lab-in-a-Box ", "Yet To be Announced", "Technology a Generation ahead ", "IonCUDOSÂ© - Automation of Curriculum Design & Attainment for OBE "};
+    String[] l1 = {"Attributes of Global Engineer", "Governance and Leadership", "Engineering Projects in Community Service ", "Problem Based Learning", "Outcome Based Education ", "Effective Teaching\n" +
+            "and Learning ", "Industry Academia\n" +
+            "Partnerships ", "Integrating Innovative\n" +
+            "Entrepreneurship with\n" +
+            "Engineering Education ", "Engineering Education for\n" +
+            "Sustainable\n" +
+            "Development"};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View d1 = inflater.inflate(R.layout.day1, container, false);
+        View d2 = inflater.inflate(R.layout.day2, container, false);
 
         ArrayAdapter mArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item_workshop, R.id.tv_list_item, mList);
 
-        ListView listView = (ListView) d1.findViewById(R.id.lv1);
+        ListView listView = (ListView) d2.findViewById(R.id.lv2);
         listView.setAdapter(mArrayAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent a = new Intent(getActivity(), Workshop1.class);
+                Intent a = new Intent(getActivity(), Workshop2.class);
                 a.putExtra("pos", position);
                 startActivity(a);
 
             }
         });
-        return d1;
+        return d2;
 
 
     }

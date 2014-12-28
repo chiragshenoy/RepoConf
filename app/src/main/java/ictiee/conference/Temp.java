@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 
 import android.content.Intent;
@@ -26,7 +26,8 @@ import com.astuetz.PagerSlidingTabStrip;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Schedule extends ActionBarActivity {
+
+public class Temp extends ActionBarActivity {
 
     ActionBar actionBar;
 
@@ -54,16 +55,16 @@ public class Schedule extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
         setSupportActionBar(toolbar);
+        toolbar.setTitle("Student Forum Schedule");
 //        toolbar.setNavigationIcon(R.drawable.ic_drawer);
 
 //        Bundle bundle = getIntent().getExtras();
 //        all_marks_string = bundle.getString("marks");
 //        Bundle c = getIntent().getExtras();
         arr = new ArrayList<String>();
-        arr.add("January 4th & 5th");
+        arr.add("January 4th");
+        arr.add("January 5th");
         arr.add("January 6th");
-        arr.add("January 7th");
-        arr.add("January 8th");
 
         final String[] color_list = getResources().getStringArray(R.array.subjectMainColors);
         final String[] accent_list = getResources().getStringArray(R.array.subjectAccentColors);
@@ -264,13 +265,12 @@ public class Schedule extends ActionBarActivity {
 
             switch (i) {
                 case 0:
-                    return new Schdule_day_1();
+                    return new StudentSchedule1();
                 case 1:
-                    return new Schdule_day_2();
+                    return new StudentSchedule2();
                 case 2:
-                    return new Schdule_day_3();
-                case 3:
-                    return new Schdule_day_4();
+                    return new StudentSchedule3();
+
             }
             return new StudentSchedule1();
         }

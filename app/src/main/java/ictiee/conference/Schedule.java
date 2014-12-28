@@ -1,8 +1,5 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
-/**
- * Created by Chirag on 15-12-2014.
- */
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -29,8 +26,7 @@ import com.astuetz.PagerSlidingTabStrip;
 import java.util.ArrayList;
 import java.util.Random;
 
-
-public class WorkshopsNew extends ActionBarActivity {
+public class Schedule extends ActionBarActivity {
 
     ActionBar actionBar;
 
@@ -64,15 +60,16 @@ public class WorkshopsNew extends ActionBarActivity {
 //        all_marks_string = bundle.getString("marks");
 //        Bundle c = getIntent().getExtras();
         arr = new ArrayList<String>();
-        arr.add("January 5th");
+        arr.add("January 4th & 5th");
         arr.add("January 6th");
+        arr.add("January 7th");
+        arr.add("January 8th");
 
         final String[] color_list = getResources().getStringArray(R.array.subjectMainColors);
         final String[] accent_list = getResources().getStringArray(R.array.subjectAccentColors);
 //        if (c != null) {
 //            arr = (ArrayList<String>) c.getStringArrayList("array_list");
 //        }
-
 
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabs.setBackground(new ColorDrawable(Color.parseColor(color_list[0])));
@@ -161,21 +158,18 @@ public class WorkshopsNew extends ActionBarActivity {
             case 0xFF00BCD4:
                 return 0xFF00ACC1; //Note this change
             case 0xFF2196F3:
-                return 0xFF1976D2;
+                return 0xE53935;
             case 0xFF3F51B5:
                 return 0xFF303F9F;
             case 0xFF673AB7:
                 return 0xFF512DA8;
-            case 0xFF9C27B0:
-                return 0xFF7B1FA2;
+            case 0xFFEF5350:
+                return 0xFFB71C1C;
         }
-
         return 0;
     }
 
     private void changeColor(int newColor) {
-
-        System.out.println("trying to change color to :" + newColor);
 
         // change ActionBar color just if an ActionBar is available
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
@@ -270,10 +264,13 @@ public class WorkshopsNew extends ActionBarActivity {
 
             switch (i) {
                 case 0:
-                    return new ListOfEvents1();
+                    return new Schdule_day_1();
                 case 1:
-                    return new ListOfEvents2();
-
+                    return new Schdule_day_2();
+                case 2:
+                    return new Schdule_day_3();
+                case 3:
+                    return new Schdule_day_4();
             }
             return new StudentSchedule1();
         }

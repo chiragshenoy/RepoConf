@@ -98,7 +98,7 @@
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Now Happening"
+        android:text="Happening Now"
         android:textAlignment="center"
         android:id="@+id/current_event" />
 

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="conference.example.chirag.conference">
+    package="ictiee.conference">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/bmsce"
         android:label="@string/app_name"
         android:theme="@style/Theme.c9theme">
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="ictiee.conference.Splash"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,17 @@
         </activity>
 
         <activity
-            android:name=".AboutUs"
+            android:name="ictiee.conference.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="ictiee.conference.AboutUs"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.ABOUTUS" />
@@ -32,7 +42,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Temp"
+            android:name="ictiee.conference.Temp"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.ABOUTUS" />
@@ -42,7 +52,7 @@
         </activity>
 
         <activity
-            android:name=".WorkshopsNew"
+            android:name="ictiee.conference.WorkshopsNew"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.WORKSHOPS" />
@@ -52,7 +62,7 @@
         </activity>
 
         <activity
-            android:name=".Workshop1"
+            android:name="ictiee.conference.Workshop1"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.WORKSHOP1" />
@@ -62,7 +72,7 @@
         </activity>
 
         <activity
-            android:name=".Workshop2"
+            android:name="ictiee.conference.Workshop2"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.WORKSHOP2" />
@@ -72,7 +82,7 @@
         </activity>
 
         <activity
-            android:name=".ContactUs"
+            android:name="ictiee.conference.ContactUs"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.ContactUs" />
@@ -82,7 +92,7 @@
         </activity>
 
         <activity
-            android:name=".Schedule"
+            android:name="ictiee.conference.Schedule"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.SCHEDULE" />
@@ -92,7 +102,7 @@
         </activity>
 
         <activity
-            android:name=".CurrentEvents"
+            android:name="ictiee.conference.CurrentEvents"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.SCHEDULE" />

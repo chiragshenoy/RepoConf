@@ -1,5 +1,4 @@
-package conference.example.chirag.conference;
-
+package ictiee.conference;
 
 
 import android.os.Bundle;

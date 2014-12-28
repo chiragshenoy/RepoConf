@@ -1,4 +1,5 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,43 +16,34 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by Chirag on 06-11-2014.
+ * Created by Chirag on 14-12-2014.
  */
-public class Day2 extends Fragment {
-
-    String[] l1 = {"Attributes of Global Engineer", "Governance and Leadership", "Engineering Projects in Community Service ", "Problem Based Learning", "Outcome Based Education ", "Effective Teaching\n" +
-            "and Learning ", "Industry Academia\n" +
-            "Partnerships ", "Integrating Innovative\n" +
-            "Entrepreneurship with\n" +
-            "Engineering Education ", "Engineering Education for\n" +
-            "Sustainable\n" +
-            "Development"};
+public class ListOfEvents1 extends Fragment {
+    String[] l1 = {"Software Defined Radio & Control Systems - Effective Tools for Teaching and Research ", "Innovative Undergraduate Labs for Control, Mechatronics, and Robotics ", "Workshop by Dassault ", "The Freedom Lab-in-a-Box ", "Learning Platform for Better Outcomes ", "PSoCTM 4 BLE Workshop ", "Technology a Generation ahead  ", "Automation of Curriculum Design & Attainment for OBE", "Impartus Lecture Capture", "Teaching Lab Solutions for RF Labs ", "New Project Based Learning "};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View d2 = inflater.inflate(R.layout.day2, container, false);
+        View d1 = inflater.inflate(R.layout.day1, container, false);
 
         ArrayAdapter mArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item_workshop, R.id.tv_list_item, mList);
 
-        ListView listView = (ListView) d2.findViewById(R.id.lv2);
+        ListView listView = (ListView) d1.findViewById(R.id.lv1);
         listView.setAdapter(mArrayAdapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent a = new Intent(getActivity(), Workshop2.class);
+                Intent a = new Intent(getActivity(), Workshop1.class);
                 a.putExtra("pos", position);
                 startActivity(a);
 
             }
         });
-        return d2;
+        return d1;
 
 
     }
-
 }

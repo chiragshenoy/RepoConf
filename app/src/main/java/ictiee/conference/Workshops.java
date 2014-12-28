@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 /**
  * Created by Chirag on 06-11-2014.

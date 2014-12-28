@@ -1,5 +1,8 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
+/**
+ * Created by Chirag on 15-12-2014.
+ */
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -26,7 +29,8 @@ import com.astuetz.PagerSlidingTabStrip;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Temp extends ActionBarActivity {
+
+public class WorkshopsNew extends ActionBarActivity {
 
     ActionBar actionBar;
 
@@ -54,14 +58,12 @@ public class Temp extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Student Forum Schedule");
 //        toolbar.setNavigationIcon(R.drawable.ic_drawer);
 
 //        Bundle bundle = getIntent().getExtras();
 //        all_marks_string = bundle.getString("marks");
 //        Bundle c = getIntent().getExtras();
         arr = new ArrayList<String>();
-        arr.add("January 4th");
         arr.add("January 5th");
         arr.add("January 6th");
 
@@ -70,6 +72,7 @@ public class Temp extends ActionBarActivity {
 //        if (c != null) {
 //            arr = (ArrayList<String>) c.getStringArrayList("array_list");
 //        }
+
 
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabs.setBackground(new ColorDrawable(Color.parseColor(color_list[0])));
@@ -158,18 +161,21 @@ public class Temp extends ActionBarActivity {
             case 0xFF00BCD4:
                 return 0xFF00ACC1; //Note this change
             case 0xFF2196F3:
-                return 0xE53935;
+                return 0xFF1976D2;
             case 0xFF3F51B5:
                 return 0xFF303F9F;
             case 0xFF673AB7:
                 return 0xFF512DA8;
-            case 0xFFEF5350:
-                return 0xFFB71C1C;
+            case 0xFF9C27B0:
+                return 0xFF7B1FA2;
         }
+
         return 0;
     }
 
     private void changeColor(int newColor) {
+
+        System.out.println("trying to change color to :" + newColor);
 
         // change ActionBar color just if an ActionBar is available
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
@@ -264,11 +270,9 @@ public class Temp extends ActionBarActivity {
 
             switch (i) {
                 case 0:
-                    return new StudentSchedule1();
+                    return new ListOfEvents1();
                 case 1:
-                    return new StudentSchedule2();
-                case 2:
-                    return new StudentSchedule3();
+                    return new ListOfEvents2();
 
             }
             return new StudentSchedule1();

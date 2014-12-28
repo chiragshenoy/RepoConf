@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;

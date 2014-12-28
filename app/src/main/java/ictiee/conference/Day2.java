@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by Chirag on 06-11-2014.
  */
-public class ListOfEvents2 extends Fragment {
+public class Day2 extends Fragment {
 
     String[] l1 = {"Attributes of Global Engineer", "Governance and Leadership", "Engineering Projects in Community Service ", "Problem Based Learning", "Outcome Based Education ", "Effective Teaching\n" +
             "and Learning ", "Industry Academia\n" +

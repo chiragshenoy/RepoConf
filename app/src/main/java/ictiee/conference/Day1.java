@@ -1,5 +1,4 @@
-package conference.example.chirag.conference;
-
+package ictiee.conference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,10 +15,11 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by Chirag on 14-12-2014.
+ * Created by Chirag on 06-11-2014.
  */
-public class ListOfEvents1 extends Fragment {
-    String[] l1 = {"Software Defined Radio & Control Systems - Effective Tools for Teaching and Research ", "Innovative Undergraduate Labs for Control, Mechatronics, and Robotics ", "Workshop by Dassault ", "The Freedom Lab-in-a-Box ", "Learning Platform for Better Outcomes ", "PSoCTM 4 BLE Workshop ", "Technology a Generation ahead  ", "Automation of Curriculum Design & Attainment for OBE", "Impartus Lecture Capture", "Teaching Lab Solutions for RF Labs ", "New Project Based Learning "};
+public class Day1 extends Fragment {
+
+    String[] l1 = {"Do Engineering", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "YTBA", "The Freedom Lab-in-a-Box ", "Yet To be Announced", "Technology a Generation ahead ", "IonCUDOSÂ© - Automation of Curriculum Design & Attainment for OBE "};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 
@@ -32,6 +32,7 @@ public class ListOfEvents1 extends Fragment {
 
         ListView listView = (ListView) d1.findViewById(R.id.lv1);
         listView.setAdapter(mArrayAdapter);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -46,4 +47,5 @@ public class ListOfEvents1 extends Fragment {
 
 
     }
+
 }

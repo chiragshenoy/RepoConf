@@ -1,4 +1,4 @@
-package conference.example.chirag.conference;
+package ictiee.conference;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
