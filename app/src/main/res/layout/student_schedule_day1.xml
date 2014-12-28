@@ -23,7 +23,7 @@
                 android:text="January 4th 2015"
                 android:gravity="center_horizontal"
                 android:textSize="20sp"
-                android:textColor="#ff0000" />
+                android:textColor="#ffffff" />
 
 
             <TableLayout
@@ -83,8 +83,9 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Breakfast"
+                        android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -93,7 +94,7 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="Sports Complex"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
@@ -104,7 +105,7 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am onwards"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
                         android:background="#009688"
@@ -121,7 +122,9 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
+                        android:gravity="center_horizontal"
+
                         android:text="Transportation"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -131,7 +134,7 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -139,7 +142,7 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="9am - 4pm"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -156,8 +159,10 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Introduction"
+                        android:gravity="center_horizontal"
+
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -166,7 +171,7 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -175,7 +180,7 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am -4pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
                         android:background="#009688" />
@@ -189,31 +194,31 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:gravity="center_horizontal"
                         android:textSize="10sp"
                         android:text="Overall Theme Exploration +
 Track Theme Exploration"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="3pm - 5pm"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -232,7 +237,7 @@ Track Theme Exploration"
                         android:gravity="center_horizontal"
                         android:text="Keynote Speaker"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:background="#009688" />
 
                     <TextView
@@ -242,7 +247,7 @@ Track Theme Exploration"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:background="#009688" />
 
                     <TextView
@@ -251,7 +256,7 @@ Track Theme Exploration"
                         android:textSize="10sp"
                         android:text="5pm - pm"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:background="#009688" />
 
@@ -267,7 +272,7 @@ Track Theme Exploration"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Break"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -278,7 +283,7 @@ Track Theme Exploration"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -288,7 +293,7 @@ Track Theme Exploration"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="6pm - 7pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -306,7 +311,7 @@ Track Theme Exploration"
                         android:text="Breaking into Track sessions"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:background="#009688" />
 
                     <TextView
@@ -314,7 +319,7 @@ Track Theme Exploration"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -325,7 +330,7 @@ Track Theme Exploration"
                         android:textSize="10sp"
                         android:gravity="center_horizontal"
                         android:text="7pm - 7.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
@@ -338,9 +343,9 @@ Track Theme Exploration"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Review of Action Plans
 from the workshops"
                         android:gravity="center_horizontal"
@@ -349,9 +354,9 @@ from the workshops"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
@@ -359,8 +364,8 @@ from the workshops"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textColor="#55134E"
+                        android:layout_height="35dp"
+                        android:textColor="#ffffaa"
                         android:textSize="10sp"
                         android:text="7.30pm - 8.15pm"
                         android:layout_margin="1px"
@@ -378,7 +383,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Lunch"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -388,7 +393,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -399,12 +404,13 @@ from the workshops"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -414,7 +420,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Brainstorming Session"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -424,7 +430,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -435,7 +441,7 @@ from the workshops"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -451,7 +457,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Break"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -461,7 +467,7 @@ from the workshops"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -472,12 +478,13 @@ from the workshops"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -485,9 +492,9 @@ from the workshops"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Identifying Resources for
 Action Plan Stage 2"
                         android:gravity="center_horizontal"
@@ -496,9 +503,9 @@ Action Plan Stage 2"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -506,15 +513,16 @@ Action Plan Stage 2"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -524,7 +532,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Free"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -534,7 +542,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -545,12 +553,13 @@ Action Plan Stage 2"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -560,7 +569,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Cultural Evening"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -570,7 +579,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -581,7 +590,7 @@ Action Plan Stage 2"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />
@@ -597,7 +606,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Dinner"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -607,7 +616,7 @@ Action Plan Stage 2"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -618,7 +627,7 @@ Action Plan Stage 2"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#009688" />

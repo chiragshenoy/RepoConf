@@ -9,7 +9,9 @@
     android:layout_marginTop="8dp"
     android:id="@+id/tv_list_item"
     android:gravity="center_horizontal"
-    android:textColor="#3F51B5"
+    android:textStyle="italic"
+    android:fontFamily="sans-serif-medium"
+    android:textColor="#ffffff"
     android:textAlignment="center">
 
 </TextView>

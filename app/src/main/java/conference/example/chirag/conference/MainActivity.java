@@ -1,8 +1,12 @@
 package conference.example.chirag.conference;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -10,31 +14,43 @@ import android.widget.Button;
 //Now pushed from desktop
 //Yaay this works!
 //Push from desktop with added xml
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //  Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/myfont.ttf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Aller.ttf");
+        toolbar = (Toolbar) findViewById(R.id.toolbar); //Appcompat support for a sexier action bar
+        setSupportActionBar(toolbar);
+
+
         Button b1 = (Button) findViewById(R.id.b1);
-        // b1.setTypeface(tf);
-        // b1.setText("About Us");
+        b1.setTypeface(tf);
         b1.setOnClickListener(this);
+
         Button b2 = (Button) findViewById(R.id.b2);
+        b2.setTypeface(tf);
         b2.setOnClickListener(this);
+
         Button contactus = (Button) findViewById(R.id.contactus);
         contactus.setOnClickListener(this);
+        contactus.setTypeface(tf);
+
         Button schedule = (Button) findViewById(R.id.b4);
         schedule.setOnClickListener(this);
-        Button studentScheule =(Button) findViewById(R.id.b3);
+        schedule.setTypeface(tf);
+
+        Button studentScheule = (Button) findViewById(R.id.b3);
         studentScheule.setOnClickListener(this);
+        studentScheule.setTypeface(tf);
 
         Button currentEvent = (Button) findViewById(R.id.current_event);
         currentEvent.setOnClickListener(this);
-
+        currentEvent.setTypeface(tf);
     }
 
 
@@ -89,19 +105,23 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-//    public static class PlaceholderFragment extends Fragment {
-//
-//        public PlaceholderFragment() {
-//        }
-//
-//        @Override
-//        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-//                                 Bundle savedInstanceState) {
-//            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-//            return rootView;
-//        }
-//    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.about:
+                Intent about = new Intent(getApplicationContext(), AboutUs.class);
+                startActivity(about);
+                return true;
+
+        }
+        return true;
+    }
 }

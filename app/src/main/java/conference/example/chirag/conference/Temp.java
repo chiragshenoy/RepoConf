@@ -73,7 +73,7 @@ public class Temp extends ActionBarActivity {
         tabs.setDividerColor(Color.argb(0, 0, 0, 0));
         tabs.setAllCaps(true);
         tabs.setIndicatorHeight(3);
-        tabs.setIndicatorColor(Color.argb(80, 255, 255, 255));
+        tabs.setIndicatorColor(Color.argb(255, 255, 255, 255));
         tabs.setUnderlineColor(Color.argb(0, 0, 0, 0));
         pager = (ViewPager) findViewById(R.id.pager);
         adapter = new MyPagerAdapter(getSupportFragmentManager());
@@ -154,21 +154,18 @@ public class Temp extends ActionBarActivity {
             case 0xFF00BCD4:
                 return 0xFF00ACC1; //Note this change
             case 0xFF2196F3:
-                return 0xFF1976D2;
+                return 0xE53935;
             case 0xFF3F51B5:
                 return 0xFF303F9F;
             case 0xFF673AB7:
                 return 0xFF512DA8;
-            case 0xFF9C27B0:
-                return 0xFF7B1FA2;
+            case 0xFFEF5350:
+                return 0xFFB71C1C;
         }
-
         return 0;
     }
 
     private void changeColor(int newColor) {
-
-        System.out.println("trying to change color to :" + newColor);
 
         // change ActionBar color just if an ActionBar is available
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {

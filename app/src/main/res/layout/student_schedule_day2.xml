@@ -23,7 +23,7 @@
                 android:text="January 5th 2015"
                 android:gravity="center_horizontal"
                 android:textSize="20sp"
-                android:textColor="#ff0000" />
+                android:textColor="#ffffff" />
 
 
             <TableLayout
@@ -83,32 +83,32 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Breakfast"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="Sports Complex"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am onwards"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
-                        android:background="#72cbdb"
+                        android:background="#3F51B5"
                         android:gravity="center_horizontal" />
 
                 </TableRow>
@@ -122,31 +122,31 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Transportation"
                         android:gravity="center_horizontal"
 
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="9am - 4pm"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -161,29 +161,29 @@
                         android:gravity="center_horizontal"
 
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Community Service"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am -4pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -198,9 +198,9 @@
                         android:gravity="center_horizontal"
                         android:textSize="10sp"
                         android:text="Transportation"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -208,19 +208,19 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="3pm - 5pm"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -236,8 +236,8 @@
                         android:gravity="center_horizontal"
                         android:text="Break"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#72cbdb" />
+                        android:textColor="#ffffaa"
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -246,8 +246,8 @@
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#72cbdb" />
+                        android:textColor="#ffffaa"
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -255,9 +255,9 @@
                         android:textSize="10sp"
                         android:text="5pm - pm"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -271,10 +271,10 @@
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Prototyping "
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -282,9 +282,9 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -292,9 +292,9 @@
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="6pm - 7pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -310,18 +310,18 @@
                         android:text="Lunch"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#72cbdb" />
+                        android:textColor="#ffffaa"
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -329,9 +329,9 @@
                         android:textSize="10sp"
                         android:gravity="center_horizontal"
                         android:text="7pm - 7.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -344,32 +344,32 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Review of Action Plans"
                         android:gravity="center_horizontal"
 
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:textSize="10sp"
                         android:text="7.30pm - 8.15pm"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -380,36 +380,37 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="33dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Refined Brainstorming
 for Detailing"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="33dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="33dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -419,31 +420,31 @@ for Detailing"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Break"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
 
@@ -456,33 +457,34 @@ for Detailing"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Critique Stage"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -492,34 +494,34 @@ for Detailing"
                         android:layout_width="0dp"
                         android:layout_height="40dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
-                        android:text="Feedback Incorporation
-and Creation of Final Presentations"
+                        android:textColor="#ffffaa"
+                        android:text="Feedback and Creation of Final Presentations"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="40dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="40dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -529,33 +531,34 @@ and Creation of Final Presentations"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Free"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -565,31 +568,31 @@ and Creation of Final Presentations"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Dinner"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#72cbdb" />
+                        android:background="#3F51B5" />
 
                 </TableRow>
             </TableLayout>

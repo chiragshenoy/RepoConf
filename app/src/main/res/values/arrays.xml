@@ -12,9 +12,10 @@
     </array>
 
 
-
     <string-array name="subjectMainColors">
         <item name="mcol1">#009688</item>
+        <item>#3F51B5</item>
+        <item>#EF5350</item>
         <item>#00BCD4</item>
         <item>#2196F3</item>
         <item>#3F51B5</item>
@@ -27,6 +28,8 @@
 
     <string-array name="subjectAccentColors">
         <item>#1DE9B6</item>
+        <item>#536DFE</item>
+        <item>#E53935</item>
         <item>#00E5FF</item>
         <item>#90CAF9</item>
         <item>#536DFE</item>

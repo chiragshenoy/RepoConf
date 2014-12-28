@@ -4,6 +4,7 @@ package conference.example.chirag.conference;
  * Created by Chirag on 15-12-2014.
  */
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
@@ -20,6 +21,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.astuetz.PagerSlidingTabStrip;
 
@@ -77,7 +80,7 @@ public class WorkshopsNew extends ActionBarActivity {
         tabs.setDividerColor(Color.argb(0, 0, 0, 0));
         tabs.setAllCaps(true);
         tabs.setIndicatorHeight(3);
-        tabs.setIndicatorColor(Color.argb(80, 255, 255, 255));
+        tabs.setIndicatorColor(Color.argb(255, 255, 255, 255));
         tabs.setUnderlineColor(Color.argb(0, 0, 0, 0));
         pager = (ViewPager) findViewById(R.id.pager);
         adapter = new MyPagerAdapter(getSupportFragmentManager());
@@ -275,5 +278,25 @@ public class WorkshopsNew extends ActionBarActivity {
             return new StudentSchedule1();
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.about:
+                Intent about = new Intent(getApplicationContext(), AboutUs.class);
+                startActivity(about);
+                return true;
+
+        }
+        return true;
     }
 }

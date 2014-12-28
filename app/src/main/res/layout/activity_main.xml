@@ -4,13 +4,21 @@
     android:layout_height="match_parent"
     android:background="@drawable/holo"
     tools:context=".MainActivity$PlaceholderFragment">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
 
     <ImageView
+        android:layout_below="@id/toolbar"
         android:layout_width="150dp"
         android:id="@+id/bmsce"
         android:layout_marginTop="40dp"
         android:layout_height="150dp"
-        android:background="@drawable/bmsce"/>
+        android:background="@drawable/bmsce" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,9 +26,11 @@
         android:layout_toRightOf="@+id/bmsce"
         android:layout_marginTop="50dp"
         android:text="ICTIEE 2015"
+        android:textColor="#ffffff"
+        android:layout_below="@id/toolbar"
         android:fontFamily="sans-serif"
         android:id="@+id/ictiee"
-        android:textSize="40dp"/>
+        android:textSize="40dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +38,8 @@
         android:layout_below="@+id/ictiee"
         android:layout_toRightOf="@+id/bmsce"
         android:textSize="20dp"
-        android:text="BMSCE,Bangalore "/>
+        android:textColor="#eeeeee"
+        android:text="BMSCE,Bangalore " />
 
     <Button
         android:layout_marginTop="7dp"
@@ -55,7 +66,7 @@
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Workshops"
+        android:text="Pre Conference Workshops"
 
         android:textAlignment="center"
         android:id="@+id/b2" />

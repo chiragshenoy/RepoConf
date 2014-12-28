@@ -23,7 +23,7 @@
                 android:text="January 6th 2015"
                 android:gravity="center_horizontal"
                 android:textSize="20sp"
-                android:textColor="#ff0000" />
+                android:textColor="#ffffff" />
 
 
             <TableLayout
@@ -85,31 +85,31 @@
                         android:gravity="center_horizontal"
 
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Breakfast"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="Sports Complex"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am onwards"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
-                        android:background="#2196F3"
+                        android:background="#F44336"
                         android:gravity="center_horizontal" />
 
                 </TableRow>
@@ -125,29 +125,29 @@
                         android:textSize="10sp"
                         android:gravity="center_horizontal"
 
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Transportation"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="9am - 4pm"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -162,29 +162,29 @@
                         android:textSize="10sp"
                         android:gravity="center_horizontal"
 
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Preperation Time"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="9am -4pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -195,34 +195,34 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:gravity="center_horizontal"
                         android:textSize="10sp"
                         android:text="Presentation and Election
 of Action Plan Winners"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="3pm - 5pm"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -238,8 +238,8 @@ of Action Plan Winners"
                         android:gravity="center_horizontal"
                         android:text="Break"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#2196F3" />
+                        android:textColor="#ffffaa"
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -248,8 +248,8 @@ of Action Plan Winners"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#2196F3" />
+                        android:textColor="#ffffaa"
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -257,9 +257,9 @@ of Action Plan Winners"
                         android:textSize="10sp"
                         android:text="5pm - pm"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -271,33 +271,33 @@ of Action Plan Winners"
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Presentation and Election
 of Best Action Plan Overall Winner"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:textSize="10sp"
                         android:text="6pm - 7pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -313,18 +313,18 @@ of Best Action Plan Overall Winner"
                         android:text="Lunch"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:textColor="#55134E"
-                        android:background="#2196F3" />
+                        android:textColor="#ffffaa"
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text=""
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -332,9 +332,9 @@ of Best Action Plan Overall Winner"
                         android:textSize="10sp"
                         android:gravity="center_horizontal"
                         android:text="7pm - 7.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -347,31 +347,31 @@ of Best Action Plan Overall Winner"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Poster Session"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:textSize="10sp"
                         android:text="7.30pm - 8.15pm"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -384,33 +384,34 @@ of Best Action Plan Overall Winner"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Closing Cermony"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -420,31 +421,31 @@ of Best Action Plan Overall Winner"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Wrap Up"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
 
@@ -457,33 +458,34 @@ of Best Action Plan Overall Winner"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="ICTIEE Opening Session"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -493,31 +495,31 @@ of Best Action Plan Overall Winner"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text="Dinner"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
                         android:text="8.15pm - 9.30pm"
-                        android:textColor="#55134E"
+                        android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
-                        android:background="#2196F3" />
+                        android:background="#F44336" />
 
                 </TableRow>
             </TableLayout>

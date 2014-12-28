@@ -19,7 +19,13 @@ import java.util.List;
  */
 public class Day2 extends Fragment {
 
-    String[] l1 = {" Outcome Based Education", "Attributes of Global Engineer", "Governance and Leadership", "Effective Teaching and Learning ", "Innovations in Teaching and Learning ", " Industry Academia Partnerships ", "Integrating InnovativeEntrepreneurship with Engineering Education ", "Engineering Education for SustainableDevelopment"};
+    String[] l1 = {"Attributes of Global Engineer", "Governance and Leadership", "Engineering Projects in Community Service ", "Problem Based Learning", "Outcome Based Education ", "Effective Teaching\n" +
+            "and Learning ", "Industry Academia\n" +
+            "Partnerships ", "Integrating Innovative\n" +
+            "Entrepreneurship with\n" +
+            "Engineering Education ", "Engineering Education for\n" +
+            "Sustainable\n" +
+            "Development"};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 
