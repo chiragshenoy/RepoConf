@@ -3,28 +3,28 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <ScrollView
-        android:id="@+id/layout"
-        android:layout_height="fill_parent"
-        android:scrollbars="horizontal|vertical"
-        android:layout_width="fill_parent"
-        android:fillViewport="true">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@drawable/holo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/holo">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="January 6th 2015"
-                android:gravity="center_horizontal"
-                android:textSize="20sp"
-                android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="January 6th 2015"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
 
+        <ScrollView
+            android:id="@+id/layout"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="fill_parent"
+            android:fillViewport="true">
 
             <TableLayout
                 android:layout_width="fill_parent"
@@ -94,7 +94,6 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="10sp"
-                        android:text="Sports Complex"
                         android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
@@ -523,6 +522,7 @@ of Best Action Plan Overall Winner"
 
                 </TableRow>
             </TableLayout>
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
+
+    </LinearLayout>
 </LinearLayout>

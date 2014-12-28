@@ -3,28 +3,28 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <ScrollView
-        android:id="@+id/layout"
-        android:layout_height="fill_parent"
-        android:scrollbars="horizontal|vertical"
-        android:layout_width="fill_parent"
-        android:fillViewport="true">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@drawable/holo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/holo">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="January 5th 2015"
-                android:gravity="center_horizontal"
-                android:textSize="20sp"
-                android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="January 5th 2015"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
 
+        <ScrollView
+            android:id="@+id/layout"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="fill_parent"
+            android:fillViewport="true">
 
             <TableLayout
                 android:layout_width="fill_parent"
@@ -82,7 +82,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Breakfast"
                         android:gravity="center_horizontal"
@@ -92,8 +92,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
-                        android:text="Sports Complex"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
 
                         android:layout_margin="1px"
@@ -103,7 +102,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="9am onwards"
                         android:textColor="#ffffaa"
 
@@ -121,7 +120,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Transportation"
                         android:gravity="center_horizontal"
@@ -132,7 +131,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text=""
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -141,7 +140,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="9am - 4pm"
                         android:gravity="center_horizontal"
@@ -157,10 +156,10 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="50dp"
                         android:gravity="center_horizontal"
 
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Community Service"
                         android:layout_margin="1px"
@@ -168,8 +167,8 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:layout_height="50dp"
+                        android:textSize="13sp"
                         android:text=""
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -177,8 +176,8 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:layout_height="50dp"
+                        android:textSize="13sp"
                         android:text="9am -4pm"
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -196,7 +195,7 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:gravity="center_horizontal"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="Transportation"
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -206,7 +205,7 @@
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text=""
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -216,7 +215,7 @@
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="3pm - 5pm"
                         android:layout_margin="1px"
@@ -232,7 +231,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:gravity="center_horizontal"
                         android:text="Break"
                         android:layout_margin="1px"
@@ -242,7 +241,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text=""
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -252,7 +251,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="5pm - pm"
                         android:layout_margin="1px"
                         android:textColor="#ffffaa"
@@ -270,7 +269,7 @@
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Prototyping "
                         android:layout_margin="1px"
@@ -280,7 +279,7 @@
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text=""
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -290,7 +289,7 @@
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="6pm - 7pm"
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
@@ -306,7 +305,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="Lunch"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -316,7 +315,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text=""
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -326,7 +325,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:gravity="center_horizontal"
                         android:text="7pm - 7.30pm"
                         android:textColor="#ffffaa"
@@ -342,8 +341,8 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:layout_height="50dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Review of Action Plans"
                         android:gravity="center_horizontal"
@@ -353,8 +352,8 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:layout_height="50dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:layout_margin="1px"
@@ -363,9 +362,9 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
+                        android:layout_height="50dp"
                         android:textColor="#ffffaa"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="7.30pm - 8.15pm"
                         android:layout_margin="1px"
                         android:gravity="center_horizontal"
@@ -380,8 +379,8 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="33dp"
-                        android:textSize="10sp"
+                        android:layout_height="70dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Refined Brainstorming
 for Detailing"
@@ -391,8 +390,8 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="33dp"
-                        android:textSize="10sp"
+                        android:layout_height="70dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -401,8 +400,8 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="33dp"
-                        android:textSize="10sp"
+                        android:layout_height="70dp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -419,7 +418,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Break"
                         android:gravity="center_horizontal"
@@ -429,7 +428,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -439,7 +438,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -456,7 +455,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Critique Stage"
                         android:gravity="center_horizontal"
@@ -466,7 +465,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -476,7 +475,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -492,8 +491,8 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="40dp"
-                        android:textSize="10sp"
+                        android:layout_height="80dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Feedback and Creation of Final Presentations"
                         android:gravity="center_horizontal"
@@ -502,8 +501,8 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="40dp"
-                        android:textSize="10sp"
+                        android:layout_height="80dp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -512,8 +511,8 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="40dp"
-                        android:textSize="10sp"
+                        android:layout_height="80dp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -530,7 +529,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Free"
                         android:gravity="center_horizontal"
@@ -540,7 +539,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -550,7 +549,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -567,7 +566,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Dinner"
                         android:gravity="center_horizontal"
@@ -577,7 +576,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text=""
                         android:gravity="center_horizontal"
@@ -587,7 +586,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
-                        android:textSize="10sp"
+                        android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
@@ -596,6 +595,7 @@ for Detailing"
 
                 </TableRow>
             </TableLayout>
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
+
+    </LinearLayout>
 </LinearLayout>

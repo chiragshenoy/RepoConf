@@ -1,6 +1,10 @@
 package conference.example.chirag.conference;
 
+import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -36,9 +40,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         b2.setTypeface(tf);
         b2.setOnClickListener(this);
 
-        Button contactus = (Button) findViewById(R.id.contactus);
-        contactus.setOnClickListener(this);
-        contactus.setTypeface(tf);
+//        Button contactus = (Button) findViewById(R.id.contactus);
+//        contactus.setOnClickListener(this);
+//        contactus.setTypeface(tf);
 
         Button schedule = (Button) findViewById(R.id.b4);
         schedule.setOnClickListener(this);
@@ -51,6 +55,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         Button currentEvent = (Button) findViewById(R.id.current_event);
         currentEvent.setOnClickListener(this);
         currentEvent.setTypeface(tf);
+
+        ObjectAnimator colorAnim = ObjectAnimator.ofInt(currentEvent, "textColor", Color.RED, Color.TRANSPARENT);
+        colorAnim.setDuration(1000);
+        colorAnim.setEvaluator(new ArgbEvaluator());
+        colorAnim.setRepeatCount(ValueAnimator.INFINITE);
+        colorAnim.setRepeatMode(ValueAnimator.REVERSE);
+        colorAnim.start();
+
+
     }
 
 
@@ -93,10 +106,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Intent d = new Intent(getApplicationContext(), Schedule.class);
                 startActivity(d);
                 break;
-            case R.id.contactus:
-                Intent c = new Intent(getApplicationContext(), ContactUs.class);
-                startActivity(c);
-                break;
+//            case R.id.contactus:
+//                Intent c = new Intent(getApplicationContext(), ContactUs.class);
+//                startActivity(c);
+//                break;
             case R.id.current_event:
                 Intent z = new Intent(getApplicationContext(), CurrentEvents.class);
                 startActivity(z);
@@ -116,11 +129,16 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
-            case R.id.about:
-                Intent about = new Intent(getApplicationContext(), AboutUs.class);
-                startActivity(about);
+            case R.id.home:
                 return true;
-
+            case R.id.phone:
+                Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                startActivity(phone);
+                return true;
+            case R.id.now:
+                Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                startActivity(now);
+                return true;
         }
         return true;
     }

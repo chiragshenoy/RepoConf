@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/holo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="January 8th 2015"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+
+        <ScrollView
+            android:id="@+id/layout"
+            android:layout_height="fill_parent"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="fill_parent"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#a0596b">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#FEC343"
+                        android:gravity="center_horizontal"
+                        android:text="Event" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#fec343"
+                        android:gravity="center_horizontal"
+                        android:text="Time" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Paper Presentations in 9 Parallel Tracks" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:layout_margin="1px"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="9:00 am to 10:30 am" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Break" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="10:30 am to 10:45 am" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Plenary Session 5
+Teaching and Learning II" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="10:45 am to 12:00 noon" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="68dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Plenary Session 6 Governance and Leadership
+" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="68dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="12:00 noon to 1:15 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Lunch" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="1:15 pm to 2:00 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Plenary Session 7\nAttributes of a Global Engineer" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="2:00 pm to 3:15 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="BPlenary Session 8 \nIUCEE Ecosystem for Engineering Education" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="3:15 pm to 4:00 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Break" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="4:00 pm to 4:15 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Poster Presentations Session 2" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="15sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="4:15 pm to 5:15 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Key Note Addresses\n
+Dr. S.S. Mantha, Chairman, AICTE, India\n
+Dr. A.K. Nassa, Member Secretary, NBA, India\n
+Dr Suresh S M, Director (Finance), AICTE" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="5:15 pm to 5:45 pm" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:layout_margin="1px"
+                        android:background="#00BCD4"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="Valedictory Ceremony
+\nDistribution of certificates to the Best Poster Presentations\n
+Feedback Lucky Draw\n
+Announcement of the venue for ICTIEE 2016" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="#00BCD4"
+                        android:layout_margin="1px"
+                        android:textSize="12sp"
+                        android:textColor="#555555"
+                        android:gravity="center_horizontal"
+                        android:text="5:45 pm to 6:15 pm" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

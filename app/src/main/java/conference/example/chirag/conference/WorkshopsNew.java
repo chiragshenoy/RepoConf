@@ -291,11 +291,18 @@ public class WorkshopsNew extends ActionBarActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
-            case R.id.about:
-                Intent about = new Intent(getApplicationContext(), AboutUs.class);
-                startActivity(about);
+            case R.id.home:
+                Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(home);
                 return true;
-
+            case R.id.phone:
+                Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                startActivity(phone);
+                return true;
+            case R.id.now:
+                Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                startActivity(now);
+                return true;
         }
         return true;
     }

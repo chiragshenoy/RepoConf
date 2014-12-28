@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/holo"
     tools:context=".MainActivity$PlaceholderFragment">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_height="wrap_content"
@@ -41,19 +42,6 @@
         android:textColor="#eeeeee"
         android:text="BMSCE,Bangalore " />
 
-    <Button
-        android:layout_marginTop="7dp"
-        android:layout_marginBottom="7dp"
-        android:layout_centerVertical="true"
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:background="@drawable/transparentborder"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:textColor="#ffffff"
-        android:text="About"
-        android:textAlignment="center"
-        android:id="@+id/b1" />
 
     <Button
         android:layout_marginTop="5dp"
@@ -95,36 +83,37 @@
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Schedule"
+        android:text="Program Schedule"
         android:textAlignment="center"
         android:id="@+id/b4" />
+
 
     <Button
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:textColor="#ffffff"
+        android:textColor="#ff0000"
         android:layout_below="@+id/b4"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Contact Us"
+        android:text="Now Happening"
         android:textAlignment="center"
-        android:id="@+id/contactus" />
+        android:id="@+id/current_event" />
 
     <Button
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:textColor="#ffffff"
-        android:layout_below="@+id/contactus"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_centerVertical="true"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
         android:background="@drawable/transparentborder"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Current Events"
+        android:textColor="#ffffff"
+        android:text="About"
         android:textAlignment="center"
-        android:id="@+id/current_event" />
+        android:id="@+id/b1" />
 
 </RelativeLayout>

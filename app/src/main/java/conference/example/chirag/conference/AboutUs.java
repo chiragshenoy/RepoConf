@@ -1,8 +1,10 @@
-
 package conference.example.chirag.conference;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 /**
@@ -33,6 +35,33 @@ public class AboutUs extends Activity {
                 "\r\n1.Institute of Electrical and Electronics Engineers (IEEE, www.ieee.org)\r\n\n2. International Federation of Engineering Education " +
                 "Societies (IFEES, www.ifees.net ), \r\n\n3.American Society for Engineering Education (ASEE, www.asee.org )\r\n\n4. Global Engineering Deans " +
                 "Council (GEDC, www.gedcouncil.org).\n\n\n ");
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.home:
+                Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(home);
+                return true;
+            case R.id.phone:
+                Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                startActivity(phone);
+                return true;
+            case R.id.now:
+                Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                startActivity(now);
+                return true;
+        }
+        return true;
     }
 
 }
