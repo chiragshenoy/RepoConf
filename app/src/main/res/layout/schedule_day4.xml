@@ -271,7 +271,7 @@ Teaching and Learning II" />
                         android:background="#00BCD4"
                         android:textColor="#555555"
                         android:gravity="center_horizontal"
-                        android:text="BPlenary Session 8 \nIUCEE Ecosystem for Engineering Education" />
+                        android:text="Plenary Session 8 \nIUCEE Ecosystem for Engineering Education" />
 
 
                     <TextView

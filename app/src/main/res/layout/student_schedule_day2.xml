@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="January 5th 2015"
+            android:text="January 5th 2015\nVenue:Architecture Block\nMechanical Department"
             android:gravity="center_horizontal"
             android:textSize="20sp"
             android:textColor="#ffffff" />
@@ -46,19 +46,10 @@
                         android:textStyle="bold"
                         android:textSize="18sp"
                         android:textColor="#FEC343"
+
                         android:gravity="center_horizontal"
                         android:text="Event" />
 
-                    <TextView
-                        android:id="@+id/tv2"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:gravity="center_horizontal"
-                        android:textColor="#fec343"
-                        android:text="Venue" />
 
                     <TextView
                         android:id="@+id/tv3"
@@ -86,18 +77,10 @@
                         android:textColor="#ffffaa"
                         android:text="Breakfast"
                         android:gravity="center_horizontal"
+                        android:layout_weight="1"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-
-                        android:layout_margin="1px"
-                        android:gravity="center_horizontal"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -105,7 +88,7 @@
                         android:textSize="13sp"
                         android:text="9am onwards"
                         android:textColor="#ffffaa"
-
+                        android:layout_weight="1"
                         android:layout_margin="1px"
                         android:background="#3F51B5"
                         android:gravity="center_horizontal" />
@@ -124,24 +107,17 @@
                         android:textColor="#ffffaa"
                         android:text="Transportation"
                         android:gravity="center_horizontal"
-
+                        android:layout_weight="1"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:textColor="#ffffaa"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
+                        android:layout_weight="1"
                         android:text="9am - 4pm"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
@@ -162,21 +138,15 @@
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Community Service"
+                        android:layout_weight="1"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
+
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="50dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:textColor="#ffffaa"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_weight="1"
                         android:textSize="13sp"
                         android:text="9am -4pm"
                         android:textColor="#ffffaa"
@@ -199,17 +169,9 @@
                         android:text="Transportation"
                         android:textColor="#ffffaa"
                         android:layout_margin="1px"
+                        android:layout_weight="1"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:gravity="center_horizontal"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:textColor="#ffffaa"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -217,6 +179,7 @@
                         android:layout_height="30dp"
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
+                        android:layout_weight="1"
                         android:text="3pm - 5pm"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
@@ -235,20 +198,12 @@
                         android:gravity="center_horizontal"
                         android:text="Break"
                         android:layout_margin="1px"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:background="#3F51B5" />
 
                     <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:textColor="#ffffaa"
-                        android:background="#3F51B5" />
-
-                    <TextView
+                        android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="13sp"
@@ -270,22 +225,15 @@
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
                         android:textSize="13sp"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:text="Prototyping "
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:gravity="center_horizontal"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:textColor="#ffffaa"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
+                        android:layout_weight="1"
                         android:layout_width="0dp"
                         android:gravity="center_horizontal"
                         android:layout_height="30dp"
@@ -309,21 +257,14 @@
                         android:text="Lunch"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:textColor="#ffffaa"
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
+                        android:layout_weight="1"
                         android:layout_height="30dp"
                         android:textSize="13sp"
                         android:gravity="center_horizontal"
@@ -346,18 +287,8 @@
                         android:textColor="#ffffaa"
                         android:text="Review of Action Plans"
                         android:gravity="center_horizontal"
-
+                        android:layout_weight="1"
                         android:layout_margin="1px"
-                        android:background="#3F51B5" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="50dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:layout_margin="1px"
-                        android:gravity="center_horizontal"
                         android:background="#3F51B5" />
 
                     <TextView
@@ -367,6 +298,7 @@
                         android:textSize="13sp"
                         android:text="7.30pm - 8.15pm"
                         android:layout_margin="1px"
+                        android:layout_weight="1"
                         android:gravity="center_horizontal"
                         android:background="#3F51B5" />
 
@@ -381,6 +313,7 @@
                         android:layout_width="0dp"
                         android:layout_height="70dp"
                         android:textSize="13sp"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:text="Refined Brainstorming
 for Detailing"
@@ -388,15 +321,6 @@ for Detailing"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="70dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -404,6 +328,7 @@ for Detailing"
                         android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
+                        android:layout_weight="1"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
@@ -421,19 +346,11 @@ for Detailing"
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Break"
+                        android:layout_weight="1"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -442,6 +359,7 @@ for Detailing"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
+                        android:layout_weight="1"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
@@ -458,19 +376,11 @@ for Detailing"
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Critique Stage"
+                        android:layout_weight="1"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -480,6 +390,7 @@ for Detailing"
                         android:textColor="#ffffaa"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
+                        android:layout_weight="1"
                         android:background="#3F51B5" />
 
                 </TableRow>
@@ -493,6 +404,7 @@ for Detailing"
                         android:layout_width="0dp"
                         android:layout_height="80dp"
                         android:textSize="13sp"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:text="Feedback and Creation of Final Presentations"
                         android:gravity="center_horizontal"
@@ -501,16 +413,7 @@ for Detailing"
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="80dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
-
-                    <TextView
-                        android:layout_width="0dp"
+                        android:layout_weight="1"
                         android:layout_height="80dp"
                         android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
@@ -529,6 +432,7 @@ for Detailing"
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
+                        android:layout_weight="1"
                         android:textSize="13sp"
                         android:textColor="#ffffaa"
                         android:text="Free"
@@ -536,19 +440,11 @@ for Detailing"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
+                        android:layout_weight="1"
                         android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
@@ -567,25 +463,18 @@ for Detailing"
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="13sp"
+                        android:layout_weight="1"
                         android:textColor="#ffffaa"
                         android:text="Dinner"
                         android:gravity="center_horizontal"
                         android:layout_margin="1px"
                         android:background="#3F51B5" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:textSize="13sp"
-                        android:textColor="#ffffaa"
-                        android:text=""
-                        android:gravity="center_horizontal"
-                        android:layout_margin="1px"
-                        android:background="#3F51B5" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="30dp"
+                        android:layout_weight="1"
                         android:textSize="13sp"
                         android:text="8.15pm - 9.30pm"
                         android:textColor="#ffffaa"
