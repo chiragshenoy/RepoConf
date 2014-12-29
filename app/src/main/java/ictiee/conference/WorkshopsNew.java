@@ -57,12 +57,9 @@ public class WorkshopsNew extends ActionBarActivity {
         setContentView(R.layout.temp);
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
+        toolbar.setTitle("Workshops");
         setSupportActionBar(toolbar);
-//        toolbar.setNavigationIcon(R.drawable.ic_drawer);
 
-//        Bundle bundle = getIntent().getExtras();
-//        all_marks_string = bundle.getString("marks");
-//        Bundle c = getIntent().getExtras();
         arr = new ArrayList<String>();
         arr.add("January 5th");
         arr.add("January 6th");
@@ -293,15 +290,28 @@ public class WorkshopsNew extends ActionBarActivity {
         switch (id) {
             case R.id.home:
                 Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                finish();
                 startActivity(home);
                 return true;
             case R.id.phone:
                 Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                finish();
                 startActivity(phone);
                 return true;
             case R.id.now:
                 Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                finish();
                 startActivity(now);
+                return true;
+            case R.id.sch:
+                Intent sch = new Intent(getApplicationContext(), Schedule.class);
+                finish();
+                startActivity(sch);
+                return true;
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                finish();
+                startActivity(stu);
                 return true;
         }
         return true;

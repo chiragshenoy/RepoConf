@@ -1,8 +1,9 @@
 package ictiee.conference;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -10,11 +11,13 @@ import android.widget.TextView;
 /**
  * Created by Chirag on 05-11-2014.
  */
-public class AboutUs extends Activity {
+public class AboutUs extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_us);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
+        setSupportActionBar(toolbar);
         TextView content1 = (TextView) findViewById(R.id.content1);
         content1.setText("In a world driven by innovations in engineering for promoting prosperity of mankind, " +
                 "augmenting human resource capital through quality engineering education is vital.\r\n The vision of the second " +
@@ -50,15 +53,33 @@ public class AboutUs extends Activity {
         switch (id) {
             case R.id.home:
                 Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                finish();
                 startActivity(home);
                 return true;
             case R.id.phone:
                 Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                finish();
                 startActivity(phone);
                 return true;
             case R.id.now:
                 Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                finish();
                 startActivity(now);
+                return true;
+            case R.id.sch:
+                Intent sch = new Intent(getApplicationContext(), Schedule.class);
+                finish();
+                startActivity(sch);
+                return true;
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                finish();
+                startActivity(stu);
+                return true;
+            case R.id.workshop:
+                Intent wrk = new Intent(getApplicationContext(), WorkshopsNew.class);
+                finish();
+                startActivity(wrk);
                 return true;
         }
         return true;

@@ -29,6 +29,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Aller.ttf");
         toolbar = (Toolbar) findViewById(R.id.toolbar); //Appcompat support for a sexier action bar
+        toolbar.setTitle("Home");
         setSupportActionBar(toolbar);
 
 
@@ -115,6 +116,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 startActivity(z);
                 break;
 
+
         }
     }
 
@@ -139,7 +141,25 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
                 startActivity(now);
                 return true;
+            case R.id.sch:
+                Intent sch = new Intent(getApplicationContext(), Schedule.class);
+                startActivity(sch);
+                return true;
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                startActivity(stu);
+                return true;
+            case R.id.workshop:
+                Intent wrk = new Intent(getApplicationContext(), WorkshopsNew.class);
+                startActivity(wrk);
+                return true;
         }
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
     }
 }

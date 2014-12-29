@@ -20,6 +20,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.astuetz.PagerSlidingTabStrip;
 
@@ -53,6 +54,8 @@ public class Schedule extends ActionBarActivity {
         setContentView(R.layout.temp);
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
+        TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+        mTitle.setText("Program Schedule");
         setSupportActionBar(toolbar);
 //        toolbar.setNavigationIcon(R.drawable.ic_drawer);
 
@@ -290,15 +293,29 @@ public class Schedule extends ActionBarActivity {
         switch (id) {
             case R.id.home:
                 Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                finish();
                 startActivity(home);
                 return true;
             case R.id.phone:
                 Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                finish();
                 startActivity(phone);
                 return true;
             case R.id.now:
                 Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                finish();
                 startActivity(now);
+                return true;
+
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                finish();
+                startActivity(stu);
+                return true;
+            case R.id.workshop:
+                Intent wrk = new Intent(getApplicationContext(), WorkshopsNew.class);
+                finish();
+                startActivity(wrk);
                 return true;
         }
         return true;

@@ -132,7 +132,7 @@ public class Workshop2 extends Activity {
 
 
         //Position 6
-        if (position == 6) {
+        if (position == 5) {
             title.setText("Effective Teaching " +
                     "and Learning ");
             date.setTextSize(10);
