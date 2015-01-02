@@ -19,7 +19,7 @@ import java.util.List;
  * Created by Chirag on 14-12-2014.
  */
 public class ListOfEvents1 extends Fragment {
-    String[] l1 = {"Software Defined Radio & Control Systems - Effective Tools for Teaching and Research ", "Innovative Undergraduate Labs for Control, Mechatronics, and Robotics ", "Workshop by Dassault ", "The Freedom Lab-in-a-Box ", "Learning Platform for Better Outcomes ", "PSoCTM 4 BLE Workshop ", "Technology a Generation ahead  ", "Automation of Curriculum Design & Attainment for OBE", "Impartus Lecture Capture", "Teaching Lab Solutions for RF Labs ", "New Project Based Learning "};
+    String[] l1 = {"Software Defined Radio & Control Systems - Effective Tools for Teaching and Research ", "Innovative Undergraduate Labs for Control, Mechatronics, and Robotics ", "The Freedom Lab-in-a-Box ", "Learning Platform for Better Outcomes ", "PSoCTM 4 BLE Workshop ", "Technology a Generation ahead  ", "Automation of Curriculum Design & Attainment for OBE", "Impartus Lecture Capture", "Teaching Lab Solutions for RF Labs ", "New Project Based Learning "};
     List<String> mList = new ArrayList<String>(Arrays.asList(l1));
 
 

@@ -224,7 +224,7 @@ public class Workshop2 extends Activity {
                     "The workshop is intended for Teachers and administrators in Indian Engineering Colleges, especially those who are in the process of introducing Entrepreneurship education in 4 year engineering degree curriculum.");
             htmllink.setText(
                     Html.fromHtml(
-                            "<a href=\"http://ictiee.org/content/ws/EEE.pdf\">Click here for more details</a> "));
+                            "<a href=\"http://ictiee.org/content/ws/ESD.pdf\">Click here for more details</a> "));
             htmllink.setMovementMethod(LinkMovementMethod.getInstance());
         }
 

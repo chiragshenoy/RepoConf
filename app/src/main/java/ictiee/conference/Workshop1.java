@@ -74,25 +74,25 @@ public class Workshop1 extends Activity {
         }
 
         //Position 3
-        if (position == 2) {
-            title.setText("Workshop by Dassault");
-            date.setText("5th January 2015\nDassault Systems\n");
-
-            time.setText("Time : 9am - 4pm");
-            venue.setText("Venue :Mechanical Department");
-            description.setText("");
-            htmllink.setText(
-                    Html.fromHtml(
-                            "<a href=\"http://www.3ds.com\">Click here for more details</a> "));
-            htmllink.setMovementMethod(LinkMovementMethod.getInstance());
-        }
+//        if (position == 2) {
+//            title.setText("Workshop by Dassault");
+//            date.setText("5th January 2015\nDassault Systems\n");
+//
+//            time.setText("Time : 9am - 4pm");
+//            venue.setText("Venue :Mechanical Department");
+//            description.setText("");
+//            htmllink.setText(
+//                    Html.fromHtml(
+//                            "<a href=\"http://www.3ds.com\">Click here for more details</a> "));
+//            htmllink.setMovementMethod(LinkMovementMethod.getInstance());
+//        }
 
         //Position 4
-        if (position == 3) {
+        if (position == 2) {
             title.setText("The Freedom Lab-in-a-Box");
             date.setText("5th January 2015\nARM University Program\n");
             time.setText("Time : 9am - 4pm");
-            venue.setText("Venue : Lib Audi");
+            venue.setText("Venue : ECE Department");
             description.setText("The objective of this workshop is to showcase the teaching materials in the Lab-in-a-Box as those with a Difference-made by and for academics using the technique of concept based teacing\nOutcome- Teaching or Learning based on concepts -key to out of box thinking with innovation");
             htmllink.setText(
                     Html.fromHtml(
@@ -102,7 +102,7 @@ public class Workshop1 extends Activity {
 
 
         //Position 5
-        if (position == 4) {
+        if (position == 3) {
             title.setText("Learning Platform for Better Outcomes ");
             date.setText("5th January 2015\nInpods\n");
             time.setText("Time : 9am - 4pm");
@@ -116,7 +116,7 @@ public class Workshop1 extends Activity {
 
 
         //Position 6
-        if (position == 5) {
+        if (position == 4) {
             title.setText("PSoCTM 4 BLE Workshop ");
             date.setText("5th January 2015\nCypress Semiconductors\n");
             time.setText("Time : 9am - 4pm");
@@ -131,11 +131,11 @@ public class Workshop1 extends Activity {
 
 
         //Position 7
-        if (position == 6) {
+        if (position == 5) {
             title.setText("Technology a Generation ahead ");
             date.setText("5th January 2015\nCoreel\n");
             time.setText("Time : 9am - 4pm");
-            venue.setText("Venue : Lib Audi");
+            venue.setText("Venue : EEE Department");
             description.setText("This workshop introduces you to the latest trends in embedded system development that was made easy.\n" +
                     "The morning session will focus on Xilinx Zynq architecture which includes dual core ARM cortex A9 hard core inside. The\n" +
                     "integration of software development kit of Vivado with chipscope derives maximum benefits from Zynq partial reconfiguration of Xilinx Vivado makes bitstream reconfiguration made easy.");
@@ -147,7 +147,7 @@ public class Workshop1 extends Activity {
 
 
         //Position 8
-        if (position == 7) {
+        if (position == 6) {
             title.setText("Automation of Curriculum Design & Attainment for OBE ");
             date.setText("5th January 2015\nIonIdea Inc.");
             time.setText("Time : 9am - 4pm");
@@ -160,7 +160,7 @@ public class Workshop1 extends Activity {
         }
 
         //Position 9
-        if (position == 8) {
+        if (position == 7) {
             title.setText("Impartus Lecture Capture ");
             date.setText("5th January 2015\nImpartus\n");
             time.setText("Time : 9am - 4pm");
@@ -177,11 +177,11 @@ public class Workshop1 extends Activity {
         }
 
         //Position 10
-        if (position == 9) {
+        if (position == 8) {
             title.setText("Teaching Lab Solutions for RF Labs ");
             date.setText("5th January 2015\nKeysight\n");
             time.setText("Time : 9am - 4pm");
-            venue.setText("Venue : Lib Audi");
+            venue.setText("Venue : TCE Department");
             description.setText("");
             htmllink.setText(
                     Html.fromHtml(
@@ -191,11 +191,11 @@ public class Workshop1 extends Activity {
 
 
         //Position 11
-        if (position == 10) {
+        if (position == 9) {
             title.setText("New Project Based Learning ");
             date.setText("5th January 2015\nMathWorks\n");
             time.setText("Time : 9am - 4pm");
-            venue.setText("Venue : Lib Audi");
+            venue.setText("Venue :CSE Department");
             description.setText("");
             htmllink.setText(
                     Html.fromHtml(
