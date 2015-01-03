@@ -17,7 +17,7 @@
         android:icon="@drawable/menu_phone"
         android:title="Contact Us"
         app:showAsAction="always|withText"
-        android:orderInCategory="2"
+        android:orderInCategory="6"
         android:menuCategory="secondary" />
 
     <item
@@ -48,7 +48,7 @@
         android:icon="@drawable/workshop"
         android:title="Workshops"
         app:showAsAction="always|withText"
-        android:orderInCategory="6"
+        android:orderInCategory="2"
         android:menuCategory="secondary" />
 
 

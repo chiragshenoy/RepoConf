@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Aller.ttf");
         toolbar = (Toolbar) findViewById(R.id.toolbar); //Appcompat support for a sexier action bar
-        toolbar.setTitle("Home");
+        setTitle("Home");
         setSupportActionBar(toolbar);
 
 
@@ -160,6 +160,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        finish();
+        Intent startMain = new Intent(Intent.ACTION_MAIN);
+        startMain.addCategory(Intent.CATEGORY_HOME);
+        startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(startMain);
     }
 }

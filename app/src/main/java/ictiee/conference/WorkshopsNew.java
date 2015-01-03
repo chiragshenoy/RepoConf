@@ -57,7 +57,8 @@ public class WorkshopsNew extends ActionBarActivity {
         setContentView(R.layout.temp);
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
-        toolbar.setTitle("Workshops");
+//        toolbar.setTitle("Workshops");
+        setTitle("Workshop");
         setSupportActionBar(toolbar);
 
         arr = new ArrayList<String>();
@@ -315,5 +316,13 @@ public class WorkshopsNew extends ActionBarActivity {
                 return true;
         }
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent a = new Intent(getApplicationContext(), MainActivity.class);
+        finish();
+        startActivity(a);
     }
 }

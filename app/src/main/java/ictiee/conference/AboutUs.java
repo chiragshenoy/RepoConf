@@ -18,9 +18,10 @@ public class AboutUs extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_us);
         Toolbar toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
-        TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-        toolbar.setTitle("");
-        mTitle.setText("About Us");
+
+//        TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+//        toolbar.setTitle("");
+//        mTitle.setText("About Us");
         TextView tv = (TextView) findViewById(R.id.tv);
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Aaargh.ttf");
         tv.setTypeface(tf);

@@ -29,7 +29,8 @@ public class ContactUs extends ActionBarActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
         TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-        mTitle.setText("Contact Us");
+        setTitle("Contact Us");
+//        mTitle.setText("Contact Us");
         setSupportActionBar(toolbar);
 
         LinearLayout main_layout = (LinearLayout) findViewById(R.id.contact_ll);
@@ -40,7 +41,7 @@ public class ContactUs extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                        "mailto", "ictiee2015@bmsce.ac.in", null));
+                        "mailto", "confhelp@bmsce.ac.in", null));
                 startActivity(Intent.createChooser(emailIntent, "Send email..."));
 
             }
@@ -84,8 +85,16 @@ public class ContactUs extends ActionBarActivity {
         });
 
 
-        TextView where0 = (TextView)v0.findViewById(R.id.where);
-        where0.setText("Dr.G N Sekar");
+        TextView where0 = (TextView) v0.findViewById(R.id.where);
+        where0.setText("Dr.G N Sekhar\n9845184215");
+        where0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:9845184215"));
+                startActivity(callIntent);
+            }
+        });
         main_layout.addView(v0);
 
 
@@ -390,40 +399,9 @@ public class ContactUs extends ActionBarActivity {
         });
         main_layout.addView(v13);
 
-        View v14 = vi.inflate(R.layout.contact_layout, null);
-        TextView title14 = (TextView) v14.findViewById(R.id.title);
-        title14.setText("Audio video equipment");
-        TextView when14 = (TextView) v14.findViewById(R.id.when);
-        when14.setText("Mr Anil Venkatesh\n95357 11123");
-        when14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:9535711123"));
-                startActivity(callIntent);
-            }
-        });
-        TextView where14 = (TextView) v14.findViewById(R.id.where);
-        main_layout.addView(v14);
-
-        View v15 = vi.inflate(R.layout.contact_layout, null);
-        TextView title15 = (TextView) v15.findViewById(R.id.title);
-        title15.setText("Internet Connectivity");
-        TextView when15 = (TextView) v15.findViewById(R.id.when);
-        when15.setText("Mr Bhaktavatsala\n98804 32288");
-        when15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:9880432288"));
-                startActivity(callIntent);
-            }
-        });
-        TextView where15 = (TextView) v15.findViewById(R.id.where);
-        main_layout.addView(v15);
-
         View v16 = vi.inflate(R.layout.contact_layout, null);
         TextView title16 = (TextView) v16.findViewById(R.id.title);
+        title16.setBackgroundColor(0xffff0000);
         title16.setText("Medical Assistance");
         TextView when16 = (TextView) v16.findViewById(R.id.when);
         when16.setText("Beena Ullala Mat B N, ML\n94489 72072 bnb.ml@bmsce.ac.in");
@@ -448,12 +426,45 @@ public class ContactUs extends ActionBarActivity {
 
         main_layout.addView(v16);
 
-        View v9 = vi.inflate(R.layout.contact_layout, null);
+        View v14 = vi.inflate(R.layout.single_layout, null);
+        TextView title14 = (TextView) v14.findViewById(R.id.title);
+        title14.setText("Audio video equipment");
+        TextView when14 = (TextView) v14.findViewById(R.id.when);
+        when14.setText("Mr Anil Venkatesh\n95357 11123");
+        when14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:9535711123"));
+                startActivity(callIntent);
+            }
+        });
+        TextView where14 = (TextView) v14.findViewById(R.id.where);
+        main_layout.addView(v14);
+
+        View v15 = vi.inflate(R.layout.single_layout, null);
+        TextView title15 = (TextView) v15.findViewById(R.id.title);
+        title15.setText("Internet Connectivity");
+        TextView when15 = (TextView) v15.findViewById(R.id.when);
+        when15.setText("Mr Bhaktavatsala\n98804 32288");
+        when15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:9880432288"));
+                startActivity(callIntent);
+            }
+        });
+        TextView where15 = (TextView) v15.findViewById(R.id.where);
+        main_layout.addView(v15);
+
+
+        View v9 = vi.inflate(R.layout.single_layout, null);
         TextView title9 = (TextView) v9.findViewById(R.id.title);
         title9.setText("Accommodation, Transport");
         TextView when9 = (TextView) v9.findViewById(R.id.when);
         when9.setText("Ganesh Kumar, MBA\n95919 88151 kumarganesh1986@gmail.com");
-        when9.setTextSize(11);
+        when9.setTextSize(14);
 
 
         when9.setOnClickListener(new View.OnClickListener() {
@@ -468,11 +479,11 @@ public class ContactUs extends ActionBarActivity {
         main_layout.addView(v9);
 
 
-        View v7 = vi.inflate(R.layout.contact_layout, null);
+        View v7 = vi.inflate(R.layout.single_layout, null);
         TextView title7 = (TextView) v7.findViewById(R.id.title);
         title7.setText("Configuring the Paper Submission Tool (CMT)");
         TextView when7 = (TextView) v7.findViewById(R.id.when);
-        when7.setTextSize(12);
+        when7.setTextSize(14);
 
         when7.setText("Dr B Kanmani, TCE\n94483 75397 bkanmani.tce@bmsce.ac.in");
         when7.setOnClickListener(new View.OnClickListener() {
@@ -515,6 +526,10 @@ public class ContactUs extends ActionBarActivity {
                 finish();
                 startActivity(sch);
 
+                return true;
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                startActivity(stu);
                 return true;
 
             case R.id.workshop:

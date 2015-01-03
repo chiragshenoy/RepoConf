@@ -55,7 +55,7 @@ public class Schedule extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
         TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-        mTitle.setText("Program Schedule");
+        setTitle("Schedule");
         setSupportActionBar(toolbar);
 //        toolbar.setNavigationIcon(R.drawable.ic_drawer);
 

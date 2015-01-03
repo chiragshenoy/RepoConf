@@ -88,7 +88,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Trasnportation");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("08.00 - 08.30");
+            when.setText("8am - 8.30am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -106,7 +106,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Introduction");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("08.30 - 09.00");
+            when.setText("8.30am - 9.00am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -126,7 +126,7 @@ public class CurrentEvents extends ActionBarActivity {
             title.setText("Overall Theme Exploration +\n" +
                     "Track Theme Exploration");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("09.00 am - 10.00 am");
+            when.setText("9am - 10am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -145,7 +145,27 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Keynote Speaker");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("10.00 am - 11.00 am");
+            when.setText("10am - 11am");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("");
+            main_layout.addView(v1);
+        }
+
+
+        // breaking
+        if (current_time.compareTo("04:01 11:00:00") > 0 && current_time.compareTo("04:01 11:30:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.event_layout, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Break");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("11 am - 11.30 am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -184,7 +204,7 @@ public class CurrentEvents extends ActionBarActivity {
             title.setText("Review of Action Plans " +
                     "from the workshops");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("12.00 am - 1.30 pm");
+            when.setText("12.00 noon - 1.30pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -203,7 +223,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Lunch");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("1.00 pm - 1:30 pm");
+            when.setText("1pm - 1:30pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -222,12 +242,31 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Brainstorming Session");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("2.00 pm - 3:30 pm");
+            when.setText("2pm - 3:30pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
         }
 
+
+        // breaking
+        if (current_time.compareTo("04:01 15:30:00") > 0 && current_time.compareTo("04:01 16:00:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.event_layout, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Break");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("3.30 pm - 4 pm");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("");
+            main_layout.addView(v1);
+        }
 
         //Identify
         if (current_time.compareTo("04:01 16:00:00") > 0 && current_time.compareTo("04:01 17:30:00") < 0) {
@@ -243,7 +282,7 @@ public class CurrentEvents extends ActionBarActivity {
             title.setText("Identifying Resources for " +
                     "Action Plan Stage 2");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("4.00 pm - 5:30 pm");
+            when.setText("4pm - 5:30pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -262,7 +301,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Cultural Program");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("6.30 pm - 8:00 pm");
+            when.setText("6.30pm - 8:00pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -281,7 +320,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Dinner");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("8.00 pm - 9:00 pm");
+            when.setText("8pm - 9pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -439,7 +478,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Trasnportation");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("08.00 - 08.30");
+            when.setText("8am - 8.30am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -458,7 +497,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Community Service");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("08.30 am - 10.30 am");
+            when.setText("8.30am - 10.30am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -565,7 +604,7 @@ public class CurrentEvents extends ActionBarActivity {
         }
 
 
-        //Reviewing
+        //Refined
         if (current_time.compareTo("05:01 15:30:00") > 0 && current_time.compareTo("05:01 16:30:00") < 0) {
             event_going_on = true;
 
@@ -584,6 +623,25 @@ public class CurrentEvents extends ActionBarActivity {
             where.setText("");
             main_layout.addView(v1);
         }
+
+        if (current_time.compareTo("05:01 16:30:00") > 0 && current_time.compareTo("05:01 17:00:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.event_layout, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Break");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("4.30 pm - 5:00 pm");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("");
+            main_layout.addView(v1);
+        }
+
 
         //Criti
         if (current_time.compareTo("05:01 17:00:00") > 0 && current_time.compareTo("05:01 18:00:00") < 0) {
@@ -674,7 +732,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView when95 = (TextView) v95.findViewById(R.id.when);
             when95.setText("9am - 4pm");
             TextView where95 = (TextView) v95.findViewById(R.id.where);
-            where95.setText("BMS Auditorium");
+            where95.setText("Sir MV Hall");
             main_layout.addView(v95);
 
             View v96 = vi.inflate(R.layout.event_layout, null);
@@ -819,7 +877,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Focus on Exhibits (High Tea)");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("03.00pm - 05.00pm");
+            when.setText("3pm - 5pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -838,7 +896,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Conference Inaugural Ceremony");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("05 pm - 06 pm");
+            when.setText("5pm - 6pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -857,7 +915,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Key Note Addresses");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("06 pm - 06.45 pm");
+            when.setText("6pm - 6.45pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -875,7 +933,25 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("ICTIEE Opening Session");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("05 pm - 08.00 pm");
+            when.setText("5 pm - 8 pm");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("");
+            main_layout.addView(v1);
+        }
+
+        if (current_time.compareTo("06:01 13:00:00") > 0 && current_time.compareTo("06:01 13:30:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.event_layout, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Lunch");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("1 pm - 1.30 pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -894,7 +970,7 @@ public class CurrentEvents extends ActionBarActivity {
             title.setText("Presentation and Election " +
                     "of Action Plan Winners for Each Track");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("09.30 am - 11.00 am");
+            when.setText("9.30 am - 11.00 am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -991,11 +1067,12 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Conference Welcoming Dinner");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("8:00 pm to 9:00 pm");
+            when.setText("8 pm to 9 pm");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
         }
+
 
         //jan 7th
         //paper pres
@@ -1011,7 +1088,7 @@ public class CurrentEvents extends ActionBarActivity {
             TextView title = (TextView) v1.findViewById(R.id.title);
             title.setText("Paper Presentations in 9 Parallel Tracks");
             TextView when = (TextView) v1.findViewById(R.id.when);
-            when.setText("9:00 am - 10:30 am");
+            when.setText("9am - 10am");
             TextView where = (TextView) v1.findViewById(R.id.where);
             where.setText("");
             main_layout.addView(v1);
@@ -1019,7 +1096,7 @@ public class CurrentEvents extends ActionBarActivity {
 
 
         //plenary session
-        if (current_time.compareTo("07:01 10.45:00:00") > 0 && current_time.compareTo("07:01 12:00:00") < 0) {
+        if (current_time.compareTo("07:01 10:45:00:00") > 0 && current_time.compareTo("07:01 12:00:00") < 0) {
             event_going_on = true;
 
             //
@@ -1039,7 +1116,7 @@ public class CurrentEvents extends ActionBarActivity {
         }
 
         //plenary session
-        if (current_time.compareTo("07:01 12.00:00:00") > 0 && current_time.compareTo("07:01 13:15:00") < 0) {
+        if (current_time.compareTo("07:01 12:00:00:00") > 0 && current_time.compareTo("07:01 13:15:00") < 0) {
             event_going_on = true;
 
             //
@@ -1079,7 +1156,7 @@ public class CurrentEvents extends ActionBarActivity {
         }
 
         //plen 3
-        if (current_time.compareTo("07:01 14.00:00:00") > 0 && current_time.compareTo("07:01 15:15:00") < 0) {
+        if (current_time.compareTo("07:01 14:00:00:00") > 0 && current_time.compareTo("07:01 15:15:00") < 0) {
             event_going_on = true;
 
             //
@@ -1353,13 +1430,25 @@ public class CurrentEvents extends ActionBarActivity {
         switch (id) {
             case R.id.home:
                 Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                finish();
                 startActivity(home);
                 return true;
             case R.id.phone:
                 Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                finish();
                 startActivity(phone);
                 return true;
             case R.id.now:
+                return true;
+            case R.id.sch:
+                Intent sch = new Intent(getApplicationContext(), Schedule.class);
+                finish();
+                startActivity(sch);
+                return true;
+            case R.id.workshop:
+                Intent wrk = new Intent(getApplicationContext(), WorkshopsNew.class);
+                finish();
+                startActivity(wrk);
                 return true;
         }
         return true;

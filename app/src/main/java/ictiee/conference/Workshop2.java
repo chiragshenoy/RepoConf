@@ -1,23 +1,28 @@
 package ictiee.conference;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 /**
  * Created by Chirag on 07-11-2014.
  */
-public class Workshop2 extends Activity {
+public class Workshop2 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.workshop_layout);
         Intent mIntent = getIntent();
+        Toolbar toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
+        setSupportActionBar(toolbar);
         int position = mIntent.getIntExtra("pos", 0);
         TextView title = (TextView) findViewById(R.id.title);
         TextView description = (TextView) findViewById(R.id.description);
@@ -229,6 +234,52 @@ public class Workshop2 extends Activity {
         }
 
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.home:
+                Intent home = new Intent(getApplicationContext(), MainActivity.class);
+                finish();
+                startActivity(home);
+                return true;
+            case R.id.phone:
+                Intent phone = new Intent(getApplicationContext(), ContactUs.class);
+                finish();
+                startActivity(phone);
+                return true;
+            case R.id.now:
+                Intent now = new Intent(getApplicationContext(), CurrentEvents.class);
+                finish();
+                startActivity(now);
+                return true;
+            case R.id.sch:
+                Intent sch = new Intent(getApplicationContext(), Schedule.class);
+                finish();
+                startActivity(sch);
+                return true;
+            case R.id.student:
+                Intent stu = new Intent(getApplicationContext(), Temp.class);
+                finish();
+                startActivity(stu);
+                return true;
+
+            case R.id.workshop:
+                Intent wrk = new Intent(getApplicationContext(), WorkshopsNew.class);
+                finish();
+                startActivity(wrk);
+                return true;
+        }
+        return true;
     }
 
 }

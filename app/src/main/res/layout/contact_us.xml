@@ -47,13 +47,13 @@
             android:textSize="20dp"
             android:text="Click to mail us at ictiee2015@bmsce.ac.in"
             android:layout_gravity="center_horizontal"
-            android:background="#00000000"
+            android:background="@drawable/workshop_list_item_view"
             android:id="@+id/mailus" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#00000000"
+            android:background="@drawable/workshop_list_item_view"
             android:layout_gravity="center_horizontal"
             android:id="@+id/reachus"
             android:text="Click to Locate BMSCE on Google Maps"

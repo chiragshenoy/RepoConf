@@ -56,7 +56,7 @@ public class Temp extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
         TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-        mTitle.setText("Student Forum");
+        setTitle("ISF Schedule");
         setSupportActionBar(toolbar);
 
         arr = new ArrayList<String>();

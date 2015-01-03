@@ -27,7 +27,7 @@
             android:weightSum="2">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/when"
                 android:background="@drawable/transparentborder"
@@ -35,21 +35,8 @@
 
                 android:gravity="center"
 
-                android:textColor="#ECEFF1"
-                android:layout_weight="1" />
+                android:textColor="#ECEFF1" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:background="@drawable/transparentborder"
-
-                android:gravity="center"
-                android:layout_margin="1px"
-
-                android:textColor="#ECEFF1"
-
-                android:id="@+id/where"
-                android:layout_weight="1" />
         </LinearLayout>
 
     </LinearLayout>
