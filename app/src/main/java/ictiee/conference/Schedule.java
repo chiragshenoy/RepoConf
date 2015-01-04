@@ -20,7 +20,6 @@ import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.astuetz.PagerSlidingTabStrip;
 
@@ -54,7 +53,6 @@ public class Schedule extends ActionBarActivity {
         setContentView(R.layout.temp);
 
         toolbar = (Toolbar) findViewById(R.id.c9_toolbar); //Appcompat support for a sexier action bar
-        TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
         setTitle("Schedule");
         setSupportActionBar(toolbar);
 //        toolbar.setNavigationIcon(R.drawable.ic_drawer);

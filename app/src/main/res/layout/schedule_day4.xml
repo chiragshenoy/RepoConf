@@ -132,7 +132,7 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="65dp"
+                        android:layout_height="112dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:textSize="15sp"
@@ -140,13 +140,13 @@
                         android:background="#00BCD4"
                         android:textColor="#555555"
                         android:gravity="center_horizontal"
-                        android:text="Plenary Session 5
+                        android:text="Plenary Session 5\nPlatinum Sponsor: Tata Consulting Services
 Teaching and Learning II" />
 
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="65dp"
+                        android:layout_height="112dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:background="#00BCD4"
@@ -166,7 +166,7 @@ Teaching and Learning II" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="68dp"
+                        android:layout_height="115dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:textSize="15sp"
@@ -174,13 +174,13 @@ Teaching and Learning II" />
                         android:background="#00BCD4"
                         android:textColor="#555555"
                         android:gravity="center_horizontal"
-                        android:text="Plenary Session 6 Governance and Leadership
+                        android:text="Plenary Session 6\nPlatinum Sponsor: SPFU Karnataka, TEQIP\n Governance and Leadership
 " />
 
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="68dp"
+                        android:layout_height="115dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:background="#00BCD4"
@@ -231,7 +231,7 @@ Teaching and Learning II" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="70dp"
+                        android:layout_height="113dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:textSize="15sp"
@@ -239,12 +239,12 @@ Teaching and Learning II" />
                         android:background="#00BCD4"
                         android:textColor="#555555"
                         android:gravity="center_horizontal"
-                        android:text="Plenary Session 7\nAttributes of a Global Engineer" />
+                        android:text="Plenary Session 7\nGold Sponsor: National Instruments\nAttributes of a Global Engineer" />
 
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="70dp"
+                        android:layout_height="113dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:background="#00BCD4"
@@ -263,7 +263,7 @@ Teaching and Learning II" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="70dp"
+                        android:layout_height="113dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:textSize="15sp"
@@ -271,12 +271,12 @@ Teaching and Learning II" />
                         android:background="#00BCD4"
                         android:textColor="#555555"
                         android:gravity="center_horizontal"
-                        android:text="Plenary Session 8 \nIUCEE Ecosystem for Engineering Education" />
+                        android:text="Plenary Session 8 \nGold Sponsor:Microsoft India\nIUCEE Ecosystem for Engineering Education" />
 
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="70dp"
+                        android:layout_height="113dp"
                         android:layout_weight="1"
                         android:textStyle="bold"
                         android:background="#00BCD4"

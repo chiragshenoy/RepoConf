@@ -41,9 +41,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         b2.setTypeface(tf);
         b2.setOnClickListener(this);
 
-//        Button contactus = (Button) findViewById(R.id.contactus);
-//        contactus.setOnClickListener(this);
-//        contactus.setTypeface(tf);
+        Button contactus = (Button) findViewById(R.id.contact_us);
+        contactus.setOnClickListener(this);
+        contactus.setTypeface(tf);
 
         Button schedule = (Button) findViewById(R.id.b4);
         schedule.setOnClickListener(this);
@@ -107,10 +107,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 Intent d = new Intent(getApplicationContext(), Schedule.class);
                 startActivity(d);
                 break;
-//            case R.id.contactus:
-//                Intent c = new Intent(getApplicationContext(), ContactUs.class);
-//                startActivity(c);
-//                break;
+            case R.id.contact_us:
+                Intent c = new Intent(getApplicationContext(), ContactUs.class);
+                startActivity(c);
+                break;
             case R.id.current_event:
                 Intent z = new Intent(getApplicationContext(), CurrentEvents.class);
                 startActivity(z);

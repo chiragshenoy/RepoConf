@@ -91,8 +91,22 @@
     <Button
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:textColor="#ff0000"
+        android:textColor="#ffffff"
         android:layout_below="@+id/b4"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/transparentborder"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:id="@+id/contact_us" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/contact_us"
         android:layout_width="fill_parent"
         android:layout_height="30dp"
         android:background="@drawable/transparentborder"

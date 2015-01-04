@@ -86,7 +86,7 @@
                         android:layout_width="0dp"
                         android:layout_height="30dp"
                         android:textSize="13sp"
-                        android:text="9am onwards"
+                        android:text="07:30am - 08:00am"
                         android:textColor="#ffffaa"
                         android:layout_weight="1"
                         android:layout_margin="1px"
