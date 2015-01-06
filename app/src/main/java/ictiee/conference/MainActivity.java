@@ -57,6 +57,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         currentEvent.setOnClickListener(this);
         currentEvent.setTypeface(tf);
 
+        Button pp = (Button) findViewById(R.id.paper);
+        pp.setOnClickListener(this);
+        pp.setTypeface(tf);
+
         ObjectAnimator colorAnim = ObjectAnimator.ofInt(currentEvent, "textColor", Color.RED, Color.TRANSPARENT);
         colorAnim.setDuration(1000);
         colorAnim.setEvaluator(new ArgbEvaluator());
@@ -114,6 +118,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.current_event:
                 Intent z = new Intent(getApplicationContext(), CurrentEvents.class);
                 startActivity(z);
+                break;
+            case R.id.paper:
+                Intent zz = new Intent(getApplicationContext(), PaperPresentation.class);
+                startActivity(zz);
                 break;
 
 

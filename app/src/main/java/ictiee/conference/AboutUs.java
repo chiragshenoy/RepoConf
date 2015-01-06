@@ -42,7 +42,7 @@ public class AboutUs extends ActionBarActivity {
         content2.setText("The conference is Co-Organized by IUCEE (Indo-US Collaboration for Engineering Education http://iucee.com/) " +
                 "and BMS College of Engineering (BMSCE,www.bmsce.ac.in ) Bangalore from January 6th to 8th, 2015.\r\n\nThe conference program " +
                 "includes Paper Presentations, Keynote Addresses, Plenary Sessions and Panel Discussions.\r\n\nThe Pre-conference activities " +
-                "include a Student Forum (January 4th,5th,6th) and Pre conference Faculty Training/Workshops(January 5th and 6th)(.\r\n \r\nThe Collaborators for the conference " +
+                "include a Student Forum (January 4th,5th,6th) and Pre conference Faculty Training/Workshops(January 5th and 6th).\r\n \r\nThe Collaborators for the conference " +
                 "are:" +
                 "\r\n\n1.Institute of Electrical and Electronics Engineers (IEEE, www.ieee.org)\r\n\n2.International Federation of Engineering Education " +
                 "Societies (IFEES, www.ifees.net ),\r\n\n3.American Society for Engineering Education (ASEE, www.asee.org )\r\n\n4.Global Engineering Deans " +

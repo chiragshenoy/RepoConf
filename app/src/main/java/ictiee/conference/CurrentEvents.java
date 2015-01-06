@@ -1410,6 +1410,327 @@ public class CurrentEvents extends ActionBarActivity {
             main_layout.addView(v1);
         }
 
+
+        //Paper Pres
+
+        //7th 9 - 10.30
+        if (current_time.compareTo("07:01 09:00:00:00") > 0 && current_time.compareTo("07:01 10:30:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.pp, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Paper Presentation Session : 1\nSession Code: [S107 FNT1]");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("9:00 am — 10:30 am");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("BSN Block V Floor (Room No. 5002)");
+            TextView what = (TextView) v1.findViewById(R.id.what);
+            what.setText("Paper Number : 006, 007, 033, 043, 049");
+            main_layout.addView(v1);
+
+            View v2 = vi.inflate(R.layout.pp, null);
+            TextView title2 = (TextView) v2.findViewById(R.id.title);
+            title2.setText("Paper Presentation Session : 2\nSession Code: [S207 FNT1]");
+            TextView when2 = (TextView) v2.findViewById(R.id.when);
+            when2.setText("9:00 am — 10:30 am");
+            TextView where2 = (TextView) v2.findViewById(R.id.where);
+            where2.setText("BSN Block V Floor (Room No. 5003)");
+            TextView what2 = (TextView) v2.findViewById(R.id.what);
+            what2.setText("Paper Number : 058, 073, 087, 089, 165");
+            main_layout.addView(v2);
+
+            View v3 = vi.inflate(R.layout.pp, null);
+            TextView title3 = (TextView) v3.findViewById(R.id.title);
+            title3.setText("Paper Presentation Session : 3\nSession Code: [S307 FNT2]");
+            TextView when3 = (TextView) v3.findViewById(R.id.when);
+            when3.setText("9:00 am — 10:30 am");
+            TextView where3 = (TextView) v3.findViewById(R.id.where);
+            where3.setText("BSN Block V Floor (Room No. 5004)");
+            TextView what3 = (TextView) v3.findViewById(R.id.what);
+            what3.setText("Paper Number : 027, 042, 045, 059, 154");
+            main_layout.addView(v3);
+
+            View v4 = vi.inflate(R.layout.pp, null);
+            TextView title4 = (TextView) v4.findViewById(R.id.title);
+            title4.setText("Paper Presentation Session : 4\nSession Code: [S407 FNT2]");
+            TextView when4 = (TextView) v4.findViewById(R.id.when);
+            when4.setText("9:00 am — 10:30 am");
+            TextView where4 = (TextView) v4.findViewById(R.id.where);
+            where4.setText("BSN Block V Floor (Room No. 5005)");
+            TextView what4 = (TextView) v4.findViewById(R.id.what);
+            what4.setText("Paper Number : 065, 093, 104, 105, 114");
+            main_layout.addView(v4);
+
+            View v5 = vi.inflate(R.layout.pp, null);
+            TextView title5 = (TextView) v5.findViewById(R.id.title);
+            title5.setText("Paper Presentation Session : 5\nSession Code: [S507 FNT3]");
+            TextView when5 = (TextView) v5.findViewById(R.id.when);
+            when5.setText("9:00 am — 10:30 am");
+            TextView where5 = (TextView) v5.findViewById(R.id.where);
+            where5.setText("BSN Block V Floor (Room No. 5006)");
+            TextView what5 = (TextView) v5.findViewById(R.id.what);
+            what5.setText("Paper Number : 023, 219, 275, 002, 210");
+            main_layout.addView(v5);
+
+            View v6 = vi.inflate(R.layout.pp, null);
+            TextView title6 = (TextView) v6.findViewById(R.id.title);
+            title6.setText("Paper Presentation Session : 6\nSession Code: [S607 FNT6]");
+            TextView when6 = (TextView) v6.findViewById(R.id.when);
+            when6.setText("9:00 am — 10:30 am");
+            TextView where6 = (TextView) v6.findViewById(R.id.where);
+            where6.setText("BSN Block VI Floor (ME-PG-01)");
+            TextView what6 = (TextView) v6.findViewById(R.id.what);
+            what6.setText("Paper Number : 015, 019, 020, 022, 057");
+            main_layout.addView(v6);
+
+            View v7 = vi.inflate(R.layout.pp, null);
+            TextView title7 = (TextView) v7.findViewById(R.id.title);
+            title7.setText("Paper Presentation Session : 7\nSession Code: [S707 FNT7]");
+            TextView when7 = (TextView) v7.findViewById(R.id.when);
+            when7.setText("9:00 am — 10:30 am");
+            TextView where7 = (TextView) v7.findViewById(R.id.where);
+            where7.setText("BSN Block VI Floor (ME-PG-02)");
+            TextView what7 = (TextView) v7.findViewById(R.id.what);
+            what7.setText("Paper Number : 053, 091, 083, 277, 201");
+            main_layout.addView(v7);
+
+            View v8 = vi.inflate(R.layout.pp, null);
+            TextView title8 = (TextView) v8.findViewById(R.id.title);
+            title8.setText("Paper Presentation Session : 8\nSession Code: [S807 FNT8]");
+            TextView when8 = (TextView) v8.findViewById(R.id.when);
+            when8.setText("9:00 am — 10:30 am");
+            TextView where8 = (TextView) v8.findViewById(R.id.where);
+            where8.setText("BSN Block VI Floor (EE-PG-01)");
+            TextView what8 = (TextView) v8.findViewById(R.id.what);
+            what8.setText("Paper Number : 009, 012, 047, 080, 101");
+            main_layout.addView(v8);
+
+
+            View v9 = vi.inflate(R.layout.pp, null);
+            TextView title9 = (TextView) v9.findViewById(R.id.title);
+            title9.setText("Paper Presentation Session : 9\nSession Code: [S907 FNTX]");
+            TextView when9 = (TextView) v9.findViewById(R.id.when);
+            when9.setText("9:00 am — 10:30 am");
+            TextView where9 = (TextView) v9.findViewById(R.id.where);
+            where9.setText("BSN Block VI Floor (EE-PG-02)");
+            TextView what9 = (TextView) v9.findViewById(R.id.what);
+            what9.setText("Paper Number : 024, 031, 050, 236, 250");
+            main_layout.addView(v9);
+        }
+
+        //7th 4.15-5.45
+        if (current_time.compareTo("07:01 16:00:00:00") > 0 && current_time.compareTo("07:01 17:45:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.pp, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Paper Presentation Session : 1\nSession Code: [S107 ANT1]");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("4.15pm - 5.45pm");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("BSN Block V Floor (Room No. 5002)");
+            TextView what = (TextView) v1.findViewById(R.id.what);
+            what.setText("Paper Number : 097, 099, 107, 118, 152");
+            main_layout.addView(v1);
+
+            View v2 = vi.inflate(R.layout.pp, null);
+            TextView title2 = (TextView) v2.findViewById(R.id.title);
+            title2.setText("Paper Presentation Session : 2\nSession Code: [S207 ANT1]");
+            TextView when2 = (TextView) v2.findViewById(R.id.when);
+            when2.setText("4.15pm - 5.45pm");
+            TextView where2 = (TextView) v2.findViewById(R.id.where);
+            where2.setText("BSN Block V Floor (Room No. 5003)");
+            TextView what2 = (TextView) v2.findViewById(R.id.what);
+            what2.setText("Paper Number : 173,211,213,223,229");
+            main_layout.addView(v2);
+
+            View v3 = vi.inflate(R.layout.pp, null);
+            TextView title3 = (TextView) v3.findViewById(R.id.title);
+            title3.setText("Paper Presentation Session : 3\nSession Code: [S307 ANT2]");
+            TextView when3 = (TextView) v3.findViewById(R.id.when);
+            when3.setText("4.15pm - 5.45pm");
+            TextView where3 = (TextView) v3.findViewById(R.id.where);
+            where3.setText("BSN Block V Floor (Room No. 5004)");
+            TextView what3 = (TextView) v3.findViewById(R.id.what);
+            what3.setText("Paper Number : 121, 123, 124, 129, 135");
+            main_layout.addView(v3);
+
+            View v4 = vi.inflate(R.layout.pp, null);
+            TextView title4 = (TextView) v4.findViewById(R.id.title);
+            title4.setText("Paper Presentation Session : 4\nSession Code: [S407 ANT2]");
+            TextView when4 = (TextView) v4.findViewById(R.id.when);
+            when4.setText("4.15pm - 5.45pm");
+            TextView where4 = (TextView) v4.findViewById(R.id.where);
+            where4.setText("BSN Block V Floor (Room No. 5005)");
+            TextView what4 = (TextView) v4.findViewById(R.id.what);
+            what4.setText("Paper Number : 137, 140, 156, 143, 144");
+            main_layout.addView(v4);
+
+            View v5 = vi.inflate(R.layout.pp, null);
+            TextView title5 = (TextView) v5.findViewById(R.id.title);
+            title5.setText("Paper Presentation Session : 5\nSession Code: [S507 ANT2]");
+            TextView when5 = (TextView) v5.findViewById(R.id.when);
+            when5.setText("4.15pm - 5.45pm");
+            TextView where5 = (TextView) v5.findViewById(R.id.where);
+            where5.setText("BSN Block V Floor (Room No. 5006)");
+            TextView what5 = (TextView) v5.findViewById(R.id.what);
+            what5.setText("Paper Number : 147, 149, 142, 160, 161");
+            main_layout.addView(v5);
+
+            View v6 = vi.inflate(R.layout.pp, null);
+            TextView title6 = (TextView) v6.findViewById(R.id.title);
+            title6.setText("Paper Presentation Session : 6\nSession Code: [S607 ANT6]");
+            TextView when6 = (TextView) v6.findViewById(R.id.when);
+            when6.setText("4.15pm - 5.45pm");
+            TextView where6 = (TextView) v6.findViewById(R.id.where);
+            where6.setText("BSN Block VI Floor (ME-PG-01)");
+            TextView what6 = (TextView) v6.findViewById(R.id.what);
+            what6.setText("Paper Number : 034, 066, 162, 169, 256");
+            main_layout.addView(v6);
+
+            View v7 = vi.inflate(R.layout.pp, null);
+            TextView title7 = (TextView) v7.findViewById(R.id.title);
+            title7.setText("Paper Presentation Session : 7\nSession Code: [S707 ANT8]");
+            TextView when7 = (TextView) v7.findViewById(R.id.when);
+            when7.setText("4.15pm - 5.45pm");
+            TextView where7 = (TextView) v7.findViewById(R.id.where);
+            where7.setText("BSN Block VI Floor (ME-PG-02)");
+            TextView what7 = (TextView) v7.findViewById(R.id.what);
+            what7.setText("Paper Number : 146, 176, 184, 220, 241");
+            main_layout.addView(v7);
+
+            View v8 = vi.inflate(R.layout.pp, null);
+            TextView title8 = (TextView) v8.findViewById(R.id.title);
+            title8.setText("Paper Presentation Session : 8\nSession Code: [S807 ANTX]");
+            TextView when8 = (TextView) v8.findViewById(R.id.when);
+            when8.setText("4.15pm - 5.45pm");
+            TextView where8 = (TextView) v8.findViewById(R.id.where);
+            where8.setText("BSN Block VI Floor (EE-PG-01)");
+            TextView what8 = (TextView) v8.findViewById(R.id.what);
+            what8.setText("Paper Number : 051, 079, 086, 090, 095");
+            main_layout.addView(v8);
+
+
+            View v9 = vi.inflate(R.layout.pp, null);
+            TextView title9 = (TextView) v9.findViewById(R.id.title);
+            title9.setText("Paper Presentation Session : 9\nSession Code: [S907 ANTX]");
+            TextView when9 = (TextView) v9.findViewById(R.id.when);
+            when9.setText("4.15pm - 5.45pm");
+            TextView where9 = (TextView) v9.findViewById(R.id.where);
+            where9.setText("BSN Block VI Floor (EE-PG-02)");
+            TextView what9 = (TextView) v9.findViewById(R.id.what);
+            what9.setText("Paper Number : 103, 109, 117, 139, 174");
+            main_layout.addView(v9);
+        }
+
+        //end of 7th 4.15- 5.45
+
+
+        //Jan 8 PP
+        if (current_time.compareTo("08:01 09:00:00:00") > 0 && current_time.compareTo("08:01 10:30:00") < 0) {
+            event_going_on = true;
+
+            //
+            LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            //Adding Views
+
+            View v1 = vi.inflate(R.layout.pp, null);
+            TextView title = (TextView) v1.findViewById(R.id.title);
+            title.setText("Paper Presentation Session : 1\nSession Code: [S108 FNT1]");
+            TextView when = (TextView) v1.findViewById(R.id.when);
+            when.setText("9:00 am — 10:30 am");
+            TextView where = (TextView) v1.findViewById(R.id.where);
+            where.setText("BSN Block V Floor (Room No. 5002)");
+            TextView what = (TextView) v1.findViewById(R.id.what);
+            what.setText("Paper Number : 072, 276, 265, 268, 269");
+            main_layout.addView(v1);
+
+            View v2 = vi.inflate(R.layout.pp, null);
+            TextView title2 = (TextView) v2.findViewById(R.id.title);
+            title2.setText("Paper Presentation Session : 2\nSession Code:[S208 FNT1]");
+            TextView when2 = (TextView) v2.findViewById(R.id.when);
+            when2.setText("9:00 am — 10:30 am");
+            TextView where2 = (TextView) v2.findViewById(R.id.where);
+            where2.setText("BSN Block V Floor (Room No. 5003)");
+            TextView what2 = (TextView) v2.findViewById(R.id.what);
+            what2.setText("Paper Number : 270, 242, 279, 281, 287");
+            main_layout.addView(v2);
+
+            View v3 = vi.inflate(R.layout.pp, null);
+            TextView title3 = (TextView) v3.findViewById(R.id.title);
+            title3.setText("Paper Presentation Session : 3\nSession Code: [S308 FNT2]");
+            TextView when3 = (TextView) v3.findViewById(R.id.when);
+            when3.setText("9:00 am — 10:30 am");
+            TextView where3 = (TextView) v3.findViewById(R.id.where);
+            where3.setText("BSN Block V Floor (Room No. 5004)");
+            TextView what3 = (TextView) v3.findViewById(R.id.what);
+            what3.setText("Paper Number : 166, 183, 282, 222, 239");
+            main_layout.addView(v3);
+
+            View v4 = vi.inflate(R.layout.pp, null);
+            TextView title4 = (TextView) v4.findViewById(R.id.title);
+            title4.setText("Paper Presentation Session : 4\nSession Code: [S408 FNT2]");
+            TextView when4 = (TextView) v4.findViewById(R.id.when);
+            when4.setText("9:00 am — 10:30 am");
+            TextView where4 = (TextView) v4.findViewById(R.id.where);
+            where4.setText("BSN Block V Floor (Room No. 5005)");
+            TextView what4 = (TextView) v4.findViewById(R.id.what);
+            what4.setText("Paper Number : 264, 266, 191, 148, 251");
+            main_layout.addView(v4);
+
+            View v5 = vi.inflate(R.layout.pp, null);
+            TextView title5 = (TextView) v5.findViewById(R.id.title);
+            title5.setText("Paper Presentation Session : 5\nSession Code: [S508 FNTX]");
+            TextView when5 = (TextView) v5.findViewById(R.id.when);
+            when5.setText("9:00 am — 10:30 am");
+            TextView where5 = (TextView) v5.findViewById(R.id.where);
+            where5.setText("BSN Block V Floor (Room No. 5006)");
+            TextView what5 = (TextView) v5.findViewById(R.id.what);
+            what5.setText("Paper Number : 232, 244, 263, 280, 283");
+            main_layout.addView(v5);
+
+            View v6 = vi.inflate(R.layout.pp, null);
+            TextView title6 = (TextView) v6.findViewById(R.id.title);
+            title6.setText("Paper Presentation Session : 6\nSession Code: [S608 FNTX]");
+            TextView when6 = (TextView) v6.findViewById(R.id.when);
+            when6.setText("9:00 am — 10:30 am");
+            TextView where6 = (TextView) v6.findViewById(R.id.where);
+            where6.setText("BSN Block VI Floor (ME-PG-01)");
+            TextView what6 = (TextView) v6.findViewById(R.id.what);
+            what6.setText("Paper Number : 267, 288, 252, 253, 286");
+            main_layout.addView(v6);
+
+
+            View v8 = vi.inflate(R.layout.pp, null);
+            TextView title8 = (TextView) v8.findViewById(R.id.title);
+            title8.setText("Paper Presentation Session : 8\nSession Code: [S808 FNT9]");
+            TextView when8 = (TextView) v8.findViewById(R.id.when);
+            when8.setText("9:00 am — 10:30 am");
+            TextView where8 = (TextView) v8.findViewById(R.id.where);
+            where8.setText("BSN Block VI Floor (EE-PG-01)");
+            TextView what8 = (TextView) v8.findViewById(R.id.what);
+            what8.setText("Paper Number : 116, 163, 215, 175, 208");
+            main_layout.addView(v8);
+
+        }
+
+        //End jan 8 pp
+
+
+        //End of Paper Pres
+
+
         //Case of no event going on
         if (!event_going_on)
             setContentView(R.layout.blank);
