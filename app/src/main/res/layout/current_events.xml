@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="fill_parent"
-    android:layout_width="fill_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <LinearLayout
+        android:id="@+id/main_ll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/main_ll"
-        android:background="@drawable/holo"
+        android:background="@drawable/background"
         android:orientation="vertical">
-
-        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/c9_toolbar"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:minHeight="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     </LinearLayout>
 </ScrollView>

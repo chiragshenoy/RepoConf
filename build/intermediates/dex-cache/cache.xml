@@ -2,39 +2,95 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-971aad86624a8b4524ce49302c30998818ccb925.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" />
     </item>
     <item
-        jar="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="C:\Users\Chirag Shenoy\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\debug\classes-c3a1e30bc50df3c43856a7b0760da09995c2b1a7.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\library-2.4.0-9d60d030c7eaed879fc2b71fe0a3b7eda78fe2a3.jar" />
     </item>
     <item
-        jar="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\debug\classes-f7d79672ee378b5706aa997dd82fa1103bcd439f.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-14579929a1d32c1521cf825c0a22853fad88233f.jar" />
     </item>
     <item
-        jar="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\classes.jar"
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-2e23159b4e7a8fb8be44ef0a591e908b5a507aa5.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-f4c1ec24adb46914532180b98b6a7bb91f1f7578.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-8fc624ae8b502d02d5151f4218bd7705ad147aab.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-5590befe214d0041f3714f74bd0192a0bdd9e013.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.github.sd6352051.niftydialogeffects\niftydialogeffects\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f6e011916db951e72f3a2be65cfb864bf5408035">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-f618bbf087e78412e70f68ef046d9340c15d1b39.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8190861e323934dad89d5e6b830ea66878c11970">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-03b8f5cd6d77542e78d613203a07efb5f47ede71.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.davemorrissey.labs\subsampling-scale-image-view\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="83d89a5fb298ccb6f29bd3512ff29694ab507c2c">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-9c023359324c4dcd60c32f59e76af026302c3634.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="7912610ed96381c25c36d986eba422731b9641b6">
-        <dex dex="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\debug\classes-de85c527a85535a7ed95eb83d7c8b4e3b25859e1.jar" />
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-e07dd94b9daf001fe174877416e49529c64ccca7.jar" />
     </item>
     <item
-        jar="C:\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Chirag\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-75205cd7827543fa2f03e7ce3093fb0123d209e4.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-705573087fe567177f0428436232f918b6109b4e.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="C:\AndroidStudioProjects\RepoConf\app\build\intermediates\pre-dexed\release\classes-940fd919336caa0d4349fdeee573f6986fdf2d97.jar" />
     </item>
 
 </items>

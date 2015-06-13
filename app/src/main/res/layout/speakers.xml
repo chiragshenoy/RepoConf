@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Chief Guest"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/vidya"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vidyashankar"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/vidyatext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/vidya"
+                    android:text="Sri.Vidyashankar"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vidyatext"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/vidya"
+                    android:text="President of a premier trade body, India Electronics and Semiconductor Association" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Invited Speakers"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:id="@+id/roger"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/speaker1"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/person1text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/roger"
+                    android:text="Dr.Roger Zimmermann"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/person1text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/roger"
+                    android:text="Director of Media Management Research Lab,NUS" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/speaker2"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker2text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker2"
+                    android:text="Dr.Biplab Sikdar"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker2text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker2"
+                    android:text="Academician in the department of Electrical, Computer and Systems Engineering, NUS" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker3"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/speaker3"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker3text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker3"
+                    android:text="Dr.Seeram Ramakrishna"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker3text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker3"
+                    android:text="Director, Center for Nanofibers and Nanotechnology and Vice-President (Research Strategy) at NUS" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/speaker4"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker4text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker4"
+                    android:text="Mr.Vikas Mathur"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker4text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker4"
+                    android:text="Senior technology and business professional " />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/bvr"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker5text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker5"
+                    android:text="Dr.B.V.R. Chowdari"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker5text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker5"
+                    android:text=" Executive Director, NUS - India Research Initiatives at NUS." />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker6"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hari"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker6text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker6"
+                    android:text="Dr.Hari Krishna Garg"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker6text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker6"
+                    android:text="Academician at National University of Singapore" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/raja"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker7text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker7"
+                    android:text="Dr.Raja Datta"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker7text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker7"
+                    android:text="Professor at Electronics and Electrical Communication Engineering, IIT Kharagpur" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/lakshmi"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker8text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker8"
+                    android:text="Dr.Y V S Lakshmi"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker8text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker8"
+                    android:text="Head of IPR and Marketing DIvision at Centre for Development of Telematics" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Resource Speakers"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vishaka"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker9text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker9"
+                    android:text="Ms.Vishakha Vaidya"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker9text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker9"
+                    android:text="Computer scientist at Adobe and PGPEM student at IIM Bangalore" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sudipto"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker10text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker10"
+                    android:text="Mr.Sudipto Shankar Dasgupta"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker10text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker10"
+                    android:text="Associate Vice President and Principal Technology Architect with Infosys Platforms Unit"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vidya"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker11text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker11"
+                    android:text="Ms.Vidya Sridharan"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker11text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker11"
+                    android:text="Seasoned software industry professional and angel investor within Oracle Venture Group "
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/omvikas"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker12text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker12"
+                    android:text="Prof.Om Vikas"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker12text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker12"
+                    android:text="Formerly Director, Indian Institute of Information Technology and Management, Gwalior"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker13"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/dattakumar"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker13text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker13"
+                    android:text="Dr.R.Dattakumar"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker13text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker13"
+                    android:text="Special officer at VTU e-Learning Centre, Mysore"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker14"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ravikiran"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker14text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker14"
+                    android:text="Mr.Ravikiran Annaswamy"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker14text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker14"
+                    android:text="Founder and CEO of the newly launched Consulting and Startup mentoring platform - Innohabit Venture Labs."
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker15"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/annappa"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker15text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker15"
+                    android:text="Dr.Annappa"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker15text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker15"
+                    android:text="Head of the department of Computer Science and Engineering at NIT, Surathkal"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker16"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rajanikanth1"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker16text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker16"
+                    android:text="Dr.Rajanikanth"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker16text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker16"
+                    android:text="Academician"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker18"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/atal"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker17text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker18"
+                    android:text="Dr.Atal Chaudhuri"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker17text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker18"
+                    android:text="Professor in the Department of Computer Science and Engineering, Jadavpur University"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker19"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mohan"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker18text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker19"
+                    android:text="Mr. Mohan Kumar C.M"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker18text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker19"
+                    android:text="Senior Manager-Systems at Vellore Institute of Technology University"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker20"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/suresh"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker20text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker20"
+                    android:text="Dr. P Suresh"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker20text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker20"
+                    android:text="E-commerce Labs,Infosys"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvspeaker21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:elevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/speaker21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/senthilvel"
+                    app:border_color="#FF000000"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/speaker21text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker21"
+                    android:text="Dr.Senthilvel"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/speaker21text"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/speaker21"
+                    android:text="IBM India Software Labs"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

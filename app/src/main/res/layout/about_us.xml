@@ -1,29 +1,28 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/holo">
+    android:background="@drawable/background">
 
-    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/c9_toolbar"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:minHeight="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <!--<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/c9_toolbar"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+    <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_gravity="left"
-            android:id="@+id/toolbar_title" />
-    </android.support.v7.widget.Toolbar>
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="20dp"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:id="@+id/toolbar_title" />-->
+    <!--</android.support.v7.widget.Toolbar>-->
 
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_below="@id/c9_toolbar"
         android:layout_height="fill_parent">
 
         <LinearLayout
@@ -36,8 +35,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:text="About Us"
                 android:layout_gravity="center_horizontal"
+                android:text="About Us"
                 android:textColor="#ffffff"
                 android:textSize="50dp" />
 
@@ -46,10 +45,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/transparentborder"
+                android:linksClickable="true"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:textColor="#ffffff"
-                android:linksClickable="true" />
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/content2"
@@ -58,8 +57,8 @@
                 android:layout_marginTop="40dp"
                 android:background="@drawable/transparentborder"
                 android:paddingLeft="10dp"
-                android:textColor="#ffffff"
-                android:paddingRight="10dp" />
+                android:paddingRight="10dp"
+                android:textColor="#ffffff" />
 
 
         </LinearLayout>

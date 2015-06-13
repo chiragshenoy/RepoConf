@@ -3,70 +3,55 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/contact_us_bg">
+    android:background="@drawable/background">
 
     <LinearLayout
+        android:id="@+id/contact_ll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/contact_us_bg"
-        android:orientation="vertical"
-        android:id="@+id/contact_ll">
-
-        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/c9_toolbar"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:minHeight="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:layout_gravity="left"
-                android:id="@+id/toolbar_title" />
-        </android.support.v7.widget.Toolbar>
-
+        android:background="@drawable/background"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:layout_gravity="center_horizontal"
-            android:text="Contact Us " />
+            android:text="Contact Us "
+            android:textSize="40sp" />
 
 
         <Button
-            android:layout_marginTop="30dp"
+            android:id="@+id/mailus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/workshop_list_item_view"
             android:drawableLeft="@drawable/mail"
-            android:textSize="20dp"
-            android:text="Click to mail us at ictiee2015@bmsce.ac.in"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/workshop_list_item_view"
-            android:id="@+id/mailus" />
+            android:text="Click to mail General Chair rkr.ise@bmsce.ac.in"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
 
         <Button
+            android:id="@+id/reachus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/workshop_list_item_view"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/reachus"
-            android:text="Click to Locate BMSCE on Google Maps"
             android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/globe" />
+            android:background="@drawable/workshop_list_item_view"
+            android:drawableLeft="@drawable/globe"
+            android:text="Click to Locate BMSCE on Google Maps"
+            android:textColor="#ffffff" />
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:gravity="center_horizontal"
-            android:textSize="20sp"
-            android:text="Click on a number to make a call" />
+            android:text="Click on a number to make a call"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>
